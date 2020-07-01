@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 80 80" style="enable-background:new 0 0 512 512;" width="80px" height="80px" xmlns="http://www.w3.org/2000/svg">
+  <rect width="75" height="75" style="fill: rgb(255, 255, 255);" x="2.5" y="2.5"/>
+  <g transform="matrix(0.12721, 0, 0, 0.12721, 7.434238, 7.434238)">
+    <g>
+      <g>
+        <path d="M0,0v233.739h233.739V0H0z M200.348,200.348H33.391V33.391h166.957V200.348z" style="stroke: rgb(0, 0, 0); stroke-opacity: 0.15; fill: rgb(77, 77, 77); stroke-width: 6.82668px;"/>
+      </g>
+    </g>
+    <g>
+      <g>
+        <rect x="66.783" y="66.783" width="100.174" height="100.174" style="stroke: rgb(0, 0, 0); stroke-opacity: 0.15; fill: rgb(77, 77, 77); stroke-width: 6.82668px;"/>
+      </g>
+    </g>
+    <g>
+      <g>
+        <path d="M278.261,0v233.739H512V0H278.261z M478.609,200.348H311.652V33.391h166.957V200.348z" style="stroke: rgb(0, 0, 0); stroke-opacity: 0.15; fill: rgb(77, 77, 77); stroke-width: 6.82668px;"/>
+      </g>
+    </g>
+    <g>
+      <g>
+        <rect x="345.043" y="66.783" width="100.174" height="100.174" style="stroke: rgb(0, 0, 0); stroke-opacity: 0.15; fill: rgb(77, 77, 77); stroke-width: 6.82668px;"/>
+      </g>
+    </g>
+    <g>
+      <g>
+        <path d="M0,278.261V512h233.739V278.261H0z M200.348,478.609H33.391V311.652h166.957V478.609z" style="stroke: rgb(0, 0, 0); stroke-opacity: 0.15; fill: rgb(77, 77, 77); stroke-width: 6.82668px;"/>
+      </g>
+    </g>
+    <g>
+      <g>
+        <rect x="66.783" y="345.043" width="100.174" height="100.174" style="stroke: rgb(0, 0, 0); stroke-opacity: 0.15; fill: rgb(77, 77, 77); stroke-width: 6.82668px;"/>
+      </g>
+    </g>
+    <g>
+      <g>
+        <polygon points="345.043,311.652 345.043,278.261 278.261,278.261 278.261,512 345.043,512 345.043,478.609 311.652,478.609 &#10;&#9;&#9;&#9;311.652,411.826 345.043,411.826 345.043,378.435 311.652,378.435 311.652,311.652 &#9;&#9;" style="stroke: rgb(0, 0, 0); stroke-opacity: 0.15; fill: rgb(77, 77, 77); stroke-width: 6.82668px;"/>
+      </g>
+    </g>
+    <g>
+      <g>
+        <rect x="478.609" y="278.261" width="33.391" height="33.391" style="stroke: rgb(0, 0, 0); stroke-opacity: 0.15; fill: rgb(77, 77, 77); stroke-width: 6.82668px;"/>
+      </g>
+    </g>
+    <g>
+      <g>
+        <polygon points="478.609,356.174 478.609,478.609 445.217,478.609 445.217,512 512,512 512,356.174 &#9;&#9;" style="stroke: rgb(0, 0, 0); stroke-opacity: 0.15; fill: rgb(77, 77, 77); stroke-width: 6.82668px;"/>
+      </g>
+    </g>
+    <g>
+      <g>
+        <rect x="378.435" y="278.261" width="66.783" height="33.391" style="stroke: rgb(0, 0, 0); stroke-opacity: 0.15; fill: rgb(77, 77, 77); stroke-width: 6.82668px;"/>
+      </g>
+    </g>
+    <g>
+      <g>
+        <polygon points="445.217,378.435 445.217,345.043 378.435,345.043 378.435,445.217 445.217,445.217 445.217,411.826 &#10;&#9;&#9;&#9;411.826,411.826 411.826,378.435 &#9;&#9;" style="stroke: rgb(0, 0, 0); stroke-opacity: 0.15; fill: rgb(77, 77, 77); stroke-width: 6.82668px;"/>
+      </g>
+    </g>
+    <g>
+      <g>
+        <rect x="378.435" y="478.609" width="33.391" height="33.391" style="stroke: rgb(0, 0, 0); stroke-opacity: 0.15; fill: rgb(77, 77, 77); stroke-width: 6.82668px;"/>
+      </g>
+    </g>
+    <g/>
+    <g/>
+    <g/>
+    <g/>
+    <g/>
+    <g/>
+    <g/>
+    <g/>
+    <g/>
+    <g/>
+    <g/>
+    <g/>
+    <g/>
+    <g/>
+    <g/>
+  </g>
+</svg>
