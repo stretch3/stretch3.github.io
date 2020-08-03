@@ -66,6 +66,7 @@ jobs:
         with:
           repository: NorifumiOgawa/iftttWebhooks
           path: ./iftttWebhooks
+      - run: sh ./iftttWebhooks/install.sh
       - run: sh ./ic2scratch/install.sh
       - run: sh ./speech2scratch/install.sh
       - run: sh ./scratch3-qrcode/install.sh
