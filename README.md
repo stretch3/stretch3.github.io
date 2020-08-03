@@ -15,6 +15,7 @@
 - [scratch3-qrcode](https://github.com/sugiura-lab/scratch3-qrcode) QRコードを読み取ります。QRコードは株式会社デンソーウェーブの登録商標です。
 - [Speech2Scratch](https://github.com/champierre/speech2scratch) ブラウザの音声認識機能を利用して、音声をテキストに変換します。
 - [ImageClassifier2Scratch](https://github.com/champierre/ic2scratch) Webカメラに映った物体を認識し、それが何であるかを判定します。
+- [iftttWebhooks][https://github.com/NorifumiOgawa/iftttWebhooks] ScratchがIFTTTを経由して他のサービスと連携します。
 
 ## How to add a custom extension.
 
@@ -63,3 +64,7 @@
 ### ImageClassifier2Scratch
 
 - 2020/06/20 文言変更、精度 -> 確信度。
+
+### iftttWebhooks
+
+- 2020/08/03 v1.0 Initial release

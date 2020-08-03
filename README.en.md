@@ -15,6 +15,7 @@
 - [scratch3-qrcode](https://github.com/sugiura-lab/scratch3-qrcode) Read the QR code.
 - [Speech2Scratch](https://github.com/champierre/speech2scratch) converts speech to text using the browser's speech recognition feature.
 - [ImageClassifier2Scratch](https://github.com/champierre/ic2scratch) Recognizes an object captured by a webcam and determines what it is.
+- [iftttWebhooks][https://github.com/NorifumiOgawa/iftttWebhooks] Scratch works with other services via IFTTT.
 
 ## How to add a custom extension
 
