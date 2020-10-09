@@ -656,17 +656,6 @@ var esImages = {
 
 /***/ }),
 
-/***/ "./src/lib/libraries/decks/steps/add-backdrop.png":
-/*!********************************************************!*\
-  !*** ./src/lib/libraries/decks/steps/add-backdrop.png ***!
-  \********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/assets/7fe1b937b85dc7fdeded6837bea60a67.png";
-
-/***/ }),
-
 /***/ "./src/lib/libraries/decks/steps/add-effects.es.png":
 /*!**********************************************************!*\
   !*** ./src/lib/libraries/decks/steps/add-effects.es.png ***!
@@ -675,17 +664,6 @@ module.exports = __webpack_require__.p + "static/assets/7fe1b937b85dc7fdeded6837
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/assets/2d864963fd2e97abc24f77a62b965b73.png";
-
-/***/ }),
-
-/***/ "./src/lib/libraries/decks/steps/add-sprite.gif":
-/*!******************************************************!*\
-  !*** ./src/lib/libraries/decks/steps/add-sprite.gif ***!
-  \******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/assets/514e6c5a07dde1ec563dea1c9f37f7a8.gif";
 
 /***/ }),
 
@@ -744,28 +722,6 @@ module.exports = __webpack_require__.p + "static/assets/5fe28c3aac7eff532b531b1f
 
 /***/ }),
 
-/***/ "./src/lib/libraries/decks/steps/animate-char-pick-backdrop.gif":
-/*!**********************************************************************!*\
-  !*** ./src/lib/libraries/decks/steps/animate-char-pick-backdrop.gif ***!
-  \**********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/assets/05649236fbbcee12a260894921755795.gif";
-
-/***/ }),
-
-/***/ "./src/lib/libraries/decks/steps/animate-char-pick-sprite.gif":
-/*!********************************************************************!*\
-  !*** ./src/lib/libraries/decks/steps/animate-char-pick-sprite.gif ***!
-  \********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/assets/22c4291ba7654bf25a16d92e827d0a43.gif";
-
-/***/ }),
-
 /***/ "./src/lib/libraries/decks/steps/animate-char-say-something.es.png":
 /*!*************************************************************************!*\
   !*** ./src/lib/libraries/decks/steps/animate-char-say-something.es.png ***!
@@ -796,28 +752,6 @@ module.exports = __webpack_require__.p + "static/assets/3b0dcb09577ef2049a462686
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/assets/ce4c8734aa6e76ab82c03bbe3488b8c1.png";
-
-/***/ }),
-
-/***/ "./src/lib/libraries/decks/steps/chase-game-add-sprite1.gif":
-/*!******************************************************************!*\
-  !*** ./src/lib/libraries/decks/steps/chase-game-add-sprite1.gif ***!
-  \******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/assets/df28596aead9efac5480b1f106abdba3.gif";
-
-/***/ }),
-
-/***/ "./src/lib/libraries/decks/steps/chase-game-add-sprite2.gif":
-/*!******************************************************************!*\
-  !*** ./src/lib/libraries/decks/steps/chase-game-add-sprite2.gif ***!
-  \******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/assets/cbc57fb42f120b648895bb45f239e189.gif";
 
 /***/ }),
 
@@ -1019,50 +953,6 @@ module.exports = __webpack_require__.p + "static/assets/71e18caa5aa8dbdbf4c99642
 
 /***/ }),
 
-/***/ "./src/lib/libraries/decks/steps/code-cartoon-11-choose-more-characters.png":
-/*!**********************************************************************************!*\
-  !*** ./src/lib/libraries/decks/steps/code-cartoon-11-choose-more-characters.png ***!
-  \**********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/assets/7382ef4a40ab40e4fec38b912a5c9ad7.png";
-
-/***/ }),
-
-/***/ "./src/lib/libraries/decks/steps/fly-choose-backdrop.gif":
-/*!***************************************************************!*\
-  !*** ./src/lib/libraries/decks/steps/fly-choose-backdrop.gif ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/assets/0ff20e4e8ba2ba2ed8a7095b99add518.gif";
-
-/***/ }),
-
-/***/ "./src/lib/libraries/decks/steps/fly-choose-character.png":
-/*!****************************************************************!*\
-  !*** ./src/lib/libraries/decks/steps/fly-choose-character.png ***!
-  \****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/assets/f79950112152d30a89c54961386d3333.png";
-
-/***/ }),
-
-/***/ "./src/lib/libraries/decks/steps/fly-choose-scenery.gif":
-/*!**************************************************************!*\
-  !*** ./src/lib/libraries/decks/steps/fly-choose-scenery.gif ***!
-  \**************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/assets/fa4d69d8edddf8ec00b0cf01c7ab0261.gif";
-
-/***/ }),
-
 /***/ "./src/lib/libraries/decks/steps/fly-flying-heart.es.png":
 /*!***************************************************************!*\
   !*** ./src/lib/libraries/decks/steps/fly-flying-heart.es.png ***!
@@ -1107,17 +997,6 @@ module.exports = __webpack_require__.p + "static/assets/dabdbab5966f0f9d5d3f40e7
 
 /***/ }),
 
-/***/ "./src/lib/libraries/decks/steps/fly-object-to-collect.png":
-/*!*****************************************************************!*\
-  !*** ./src/lib/libraries/decks/steps/fly-object-to-collect.png ***!
-  \*****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/assets/818cc10dfee980fa11921930747a6cf9.png";
-
-/***/ }),
-
 /***/ "./src/lib/libraries/decks/steps/fly-say-something.es.png":
 /*!****************************************************************!*\
   !*** ./src/lib/libraries/decks/steps/fly-say-something.es.png ***!
@@ -1126,17 +1005,6 @@ module.exports = __webpack_require__.p + "static/assets/818cc10dfee980fa11921930
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/assets/bf1ea1e2b4e425b9004a56839435efac.png";
-
-/***/ }),
-
-/***/ "./src/lib/libraries/decks/steps/fly-select-flyer.png":
-/*!************************************************************!*\
-  !*** ./src/lib/libraries/decks/steps/fly-select-flyer.png ***!
-  \************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/assets/81dc21a52d314d1c74b6f74ddc4e8e41.png";
 
 /***/ }),
 
@@ -1279,7 +1147,7 @@ module.exports = __webpack_require__.p + "static/assets/f3a736bef507eda95c472eee
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/assets/7f322eb2f26ce07ca0eac93bc49487f6.png";
+module.exports = __webpack_require__.p + "static/assets/9218bcead8c823078f24d088bae4dc6c.png";
 
 /***/ }),
 
@@ -1382,17 +1250,6 @@ module.exports = __webpack_require__.p + "static/assets/d12a999338123fc4e1e65502
 
 /***/ }),
 
-/***/ "./src/lib/libraries/decks/steps/music-pick-instrument.gif":
-/*!*****************************************************************!*\
-  !*** ./src/lib/libraries/decks/steps/music-pick-instrument.gif ***!
-  \*****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/assets/fff00873b289b4bf62356568b8852ff0.gif";
-
-/***/ }),
-
 /***/ "./src/lib/libraries/decks/steps/music-play-sound.es.png":
 /*!***************************************************************!*\
   !*** ./src/lib/libraries/decks/steps/music-play-sound.es.png ***!
@@ -1426,28 +1283,6 @@ module.exports = __webpack_require__.p + "static/assets/f05870a469bb80ae0aad6158
 
 /***/ }),
 
-/***/ "./src/lib/libraries/decks/steps/name-pick-letter.gif":
-/*!************************************************************!*\
-  !*** ./src/lib/libraries/decks/steps/name-pick-letter.gif ***!
-  \************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/assets/95be8547447707daedc68ea89d7b9370.gif";
-
-/***/ }),
-
-/***/ "./src/lib/libraries/decks/steps/name-pick-letter2.gif":
-/*!*************************************************************!*\
-  !*** ./src/lib/libraries/decks/steps/name-pick-letter2.gif ***!
-  \*************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/assets/184c344a10392a68baad7b825db5a822.gif";
-
-/***/ }),
-
 /***/ "./src/lib/libraries/decks/steps/name-play-sound.es.png":
 /*!**************************************************************!*\
   !*** ./src/lib/libraries/decks/steps/name-play-sound.es.png ***!
@@ -1470,28 +1305,6 @@ module.exports = __webpack_require__.p + "static/assets/a510e2c02febcade2ecc23aa
 
 /***/ }),
 
-/***/ "./src/lib/libraries/decks/steps/pong-add-a-paddle.gif":
-/*!*************************************************************!*\
-  !*** ./src/lib/libraries/decks/steps/pong-add-a-paddle.gif ***!
-  \*************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/assets/936c6f5135224fb98155587e33f3159f.gif";
-
-/***/ }),
-
-/***/ "./src/lib/libraries/decks/steps/pong-add-backdrop.png":
-/*!*************************************************************!*\
-  !*** ./src/lib/libraries/decks/steps/pong-add-backdrop.png ***!
-  \*************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/assets/f6f98a31ec06445bd1c27a3187ae25f0.png";
-
-/***/ }),
-
 /***/ "./src/lib/libraries/decks/steps/pong-add-code-to-ball.es.png":
 /*!********************************************************************!*\
   !*** ./src/lib/libraries/decks/steps/pong-add-code-to-ball.es.png ***!
@@ -1500,17 +1313,6 @@ module.exports = __webpack_require__.p + "static/assets/f6f98a31ec06445bd1c27a31
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/assets/e7db9233bdad32581beaf13e0162703a.png";
-
-/***/ }),
-
-/***/ "./src/lib/libraries/decks/steps/pong-add-line.gif":
-/*!*********************************************************!*\
-  !*** ./src/lib/libraries/decks/steps/pong-add-line.gif ***!
-  \*********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/assets/9ea7aaa16c445f378e7323592323c321.gif";
 
 /***/ }),
 
@@ -1602,17 +1404,6 @@ module.exports = __webpack_require__.p + "static/assets/56e2d9ca862c88d25bd103a6
 
 /***/ }),
 
-/***/ "./src/lib/libraries/decks/steps/pop-game-pick-sprite.gif":
-/*!****************************************************************!*\
-  !*** ./src/lib/libraries/decks/steps/pop-game-pick-sprite.gif ***!
-  \****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/assets/4555e8b691e842b0d459d451bb259f4d.gif";
-
-/***/ }),
-
 /***/ "./src/lib/libraries/decks/steps/pop-game-play-sound.es.png":
 /*!******************************************************************!*\
   !*** ./src/lib/libraries/decks/steps/pop-game-play-sound.es.png ***!
@@ -1701,17 +1492,6 @@ module.exports = __webpack_require__.p + "static/assets/6a9891055a39d4d618a170cf
 
 /***/ }),
 
-/***/ "./src/lib/libraries/decks/steps/speech-add-backdrop.gif":
-/*!***************************************************************!*\
-  !*** ./src/lib/libraries/decks/steps/speech-add-backdrop.gif ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/assets/05649236fbbcee12a260894921755795.gif";
-
-/***/ }),
-
 /***/ "./src/lib/libraries/decks/steps/speech-add-extension.es.gif":
 /*!*******************************************************************!*\
   !*** ./src/lib/libraries/decks/steps/speech-add-extension.es.gif ***!
@@ -1720,17 +1500,6 @@ module.exports = __webpack_require__.p + "static/assets/05649236fbbcee12a2608949
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/assets/214ca2d22751f17cf368c5231de4936f.gif";
-
-/***/ }),
-
-/***/ "./src/lib/libraries/decks/steps/speech-add-sprite.gif":
-/*!*************************************************************!*\
-  !*** ./src/lib/libraries/decks/steps/speech-add-sprite.gif ***!
-  \*************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/assets/ac973b51892f4a335817a8509bc79a0a.gif";
 
 /***/ }),
 
@@ -1910,17 +1679,6 @@ module.exports = __webpack_require__.p + "static/assets/ad218339ca42519f314d17db
 
 /***/ }),
 
-/***/ "./src/lib/libraries/decks/steps/talking-10-choose-third-backdrop.png":
-/*!****************************************************************************!*\
-  !*** ./src/lib/libraries/decks/steps/talking-10-choose-third-backdrop.png ***!
-  \****************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/assets/c2073917e0491bdcb2d046d298bcd083.png";
-
-/***/ }),
-
 /***/ "./src/lib/libraries/decks/steps/talking-11-choose-sound.es.gif":
 /*!**********************************************************************!*\
   !*** ./src/lib/libraries/decks/steps/talking-11-choose-sound.es.gif ***!
@@ -1954,17 +1712,6 @@ module.exports = __webpack_require__.p + "static/assets/e63cba8e439578f337a81655
 
 /***/ }),
 
-/***/ "./src/lib/libraries/decks/steps/talking-2-choose-sprite.png":
-/*!*******************************************************************!*\
-  !*** ./src/lib/libraries/decks/steps/talking-2-choose-sprite.png ***!
-  \*******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/assets/ff0df5482586d3a39668fa088681b027.png";
-
-/***/ }),
-
 /***/ "./src/lib/libraries/decks/steps/talking-3-say-something.es.png":
 /*!**********************************************************************!*\
   !*** ./src/lib/libraries/decks/steps/talking-3-say-something.es.png ***!
@@ -1973,17 +1720,6 @@ module.exports = __webpack_require__.p + "static/assets/ff0df5482586d3a39668fa08
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/assets/aea5158bdd395199d39d9776f8d6e43c.png";
-
-/***/ }),
-
-/***/ "./src/lib/libraries/decks/steps/talking-4-choose-backdrop.png":
-/*!*********************************************************************!*\
-  !*** ./src/lib/libraries/decks/steps/talking-4-choose-backdrop.png ***!
-  \*********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/assets/67b5215a40ed284e31bd327d6303741d.png";
 
 /***/ }),
 
@@ -1998,17 +1734,6 @@ module.exports = __webpack_require__.p + "static/assets/1c63c503911067b0a2e97a69
 
 /***/ }),
 
-/***/ "./src/lib/libraries/decks/steps/talking-6-choose-another-sprite.png":
-/*!***************************************************************************!*\
-  !*** ./src/lib/libraries/decks/steps/talking-6-choose-another-sprite.png ***!
-  \***************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/assets/4fbcf2c035110247216ce61d5f7429fc.png";
-
-/***/ }),
-
 /***/ "./src/lib/libraries/decks/steps/talking-7-move-around.es.png":
 /*!********************************************************************!*\
   !*** ./src/lib/libraries/decks/steps/talking-7-move-around.es.png ***!
@@ -2017,17 +1742,6 @@ module.exports = __webpack_require__.p + "static/assets/4fbcf2c035110247216ce61d
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/assets/132acc314440b901152ad805d8911aaf.png";
-
-/***/ }),
-
-/***/ "./src/lib/libraries/decks/steps/talking-8-choose-another-backdrop.png":
-/*!*****************************************************************************!*\
-  !*** ./src/lib/libraries/decks/steps/talking-8-choose-another-backdrop.png ***!
-  \*****************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/assets/424584aa0d2284485934a8edf4645566.png";
 
 /***/ }),
 
