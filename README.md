@@ -31,6 +31,7 @@
 
 ### PaSoRich
 
+- 0.7.0 2020/10/10 コードの見直し整理
 - 0.4.3 2020/03/20 Improve Connect function
 
 ### scratch3-qrcode
