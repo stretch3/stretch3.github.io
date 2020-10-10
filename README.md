@@ -16,6 +16,7 @@
 - [Speech2Scratch](https://github.com/champierre/speech2scratch) ブラウザの音声認識機能を利用して、音声をテキストに変換します。
 - [ImageClassifier2Scratch](https://github.com/champierre/ic2scratch) Webカメラに映った物体を認識し、それが何であるかを判定します。
 - [iftttWebhooks][https://github.com/NorifumiOgawa/iftttWebhooks] ScratchがIFTTTを経由して他のサービスと連携します。
+- [NumberBank][https://github.com/con3office/numberbank] クラウドに数字を保存できる。
 
 ## How to add a custom extension.
 
@@ -69,3 +70,6 @@
 ### iftttWebhooks
 
 - 2020/08/03 v1.0 Initial release
+
+### numberbank
+- 2020/10/10 Initial release
