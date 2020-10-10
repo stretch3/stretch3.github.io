@@ -70,7 +70,7 @@ jobs:
         with:
           repository: con3office/numberbank
           path: ./numberbank
-      - run: sh ./numberbank/install.sh          
+      - run: sh ./numberbank/install.sh
       - run: sh ./iftttWebhooks/install.sh
       - run: sh ./ic2scratch/install.sh
       - run: sh ./speech2scratch/install.sh
@@ -80,6 +80,8 @@ jobs:
       - run: sh ./facemesh2scratch/install.sh
       - run: sh ./scratch2maqueen/install.sh
       - run: sh ./tm2scratch/install.sh
+      - run: node ./install.js --gui=../scratch-gui
+        working-directory: ./scratch-microbit-more
       - run: sh ./posenet2scratch/install.sh
       - run: sh ./ml2scratch/install.sh
       - run: sh ./stretch3/add_ga_tracking_code.sh
