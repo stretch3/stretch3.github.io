@@ -66,10 +66,16 @@ jobs:
         with:
           repository: NorifumiOgawa/iftttWebhooks
           path: ./iftttWebhooks
+      - uses: actions/checkout@v2
+        with:
+          repository: con3office/numberbank
+          path: ./numberbank
+      - run: sh ./numberbank/install.sh          
       - run: sh ./iftttWebhooks/install.sh
       - run: sh ./ic2scratch/install.sh
       - run: sh ./speech2scratch/install.sh
       - run: sh ./scratch3-qrcode/install.sh
+      - run: sh ./pasorich/install.sh
       - run: sh ./handpose2scratch/install.sh
       - run: sh ./facemesh2scratch/install.sh
       - run: sh ./scratch2maqueen/install.sh
