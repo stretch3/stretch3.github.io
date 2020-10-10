@@ -80,7 +80,7 @@ jobs:
       - run: sh ./facemesh2scratch/install.sh
       - run: sh ./scratch2maqueen/install.sh
       - run: sh ./tm2scratch/install.sh
-      - run: node ./install.js --gui=../scratch-gui
+      - run: node ./install.js --gui=../../
         working-directory: ./scratch-microbit-more
       - run: sh ./posenet2scratch/install.sh
       - run: sh ./ml2scratch/install.sh
