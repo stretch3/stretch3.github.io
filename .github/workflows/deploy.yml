@@ -29,7 +29,7 @@ jobs:
       - uses: actions/checkout@v2
         with:
           repository: yokobond/scratch-microbit-more
-          path: ./scratch-microbit-more
+          path: ./microbitMore
       - uses: actions/checkout@v2
         with:
           repository: champierre/tm2scratch
@@ -80,7 +80,7 @@ jobs:
       - run: sh ./facemesh2scratch/install.sh
       - run: sh ./scratch2maqueen/install.sh
       - run: sh ./tm2scratch/install.sh
-      - run: sh ./scratch-microbit-more/install-stretch3.sh
+      - run: sh ./microbitMore/install-stretch3.sh
       - run: sh ./posenet2scratch/install.sh
       - run: sh ./ml2scratch/install.sh
       - run: sh ./stretch3/add_ga_tracking_code.sh
