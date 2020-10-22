@@ -24,6 +24,8 @@
 
 ## Release Notes
 
+- 2020/10/22 脆弱性対策のために、最新版のscratch-guiでビルドし直す。Ref. https://scratch.mit.edu/discuss/topic/12246/?page=40#post-4525760
+
 ### ML2Scratch
 
 - 3.0.0 2020/03/28 Scratchのステージ画像を学習/判定できるようにした。
