@@ -36,10 +36,6 @@ jobs:
           path: ./tm2scratch
       - uses: actions/checkout@v2
         with:
-          repository: champierre/tmpose2scratch
-          path: ./tmpose2scratch
-      - uses: actions/checkout@v2
-        with:
           repository: champierre/scratch2maqueen
           path: ./scratch2maqueen
       - uses: actions/checkout@v2
@@ -83,7 +79,6 @@ jobs:
       - run: sh ./handpose2scratch/install.sh
       - run: sh ./facemesh2scratch/install.sh
       - run: sh ./scratch2maqueen/install.sh
-      - run: sh ./tmpose2scratch/install.sh
       - run: sh ./tm2scratch/install.sh
       - run: sh ./microbitMore/install-stretch3.sh
       - run: sh ./posenet2scratch/install.sh
