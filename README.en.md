@@ -2,6 +2,10 @@
 
 *Read this in other languages: [English](README.en.md), [日本語](README.md)*
 
+## Note
+
+TM2Scratch and TMPose2Scratch are not compatible, so you cannot use them at the same time.
+
 ## Available custom extensions
 
 - [ML2Scratch](https://github.com/champierre/ml2scratch) You can easily experience and use image recognition with machine learning.

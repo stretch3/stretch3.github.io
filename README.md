@@ -2,6 +2,10 @@
 
 *Read this in other languages: [English](README.en.md), [日本語](README.md)*
 
+## 注意事項
+
+TM2Scratch と TMPose2Scratch はライブラリの相性の関係で、両方を同時に使うことはいまのところできません。
+
 ## 利用できる独自拡張機能
 
 - [ML2Scratch](https://github.com/champierre/ml2scratch) 機械学習を使った画像認識が簡単に体験、利用できます。
