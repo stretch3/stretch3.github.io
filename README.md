@@ -17,7 +17,6 @@
 - [ImageClassifier2Scratch](https://github.com/champierre/ic2scratch) Webカメラに映った物体を認識し、それが何であるかを判定します。
 - [iftttWebhooks](https://github.com/NorifumiOgawa/iftttWebhooks) ScratchがIFTTTを経由して他のサービスと連携します。
 - [NumberBank](https://github.com/con3office/numberbank) クラウドに数字を保存できる。
-- [TMPose2Scratch](https://github.com/champierre/tmpose2scratch) Google Teachable Machine(https://teachablemachine.withgoogle.com/)で作成できる学習モデルを利用して、機械学習を使った体のポーズの認識が利用できます。
 
 ## How to add a custom extension.
 
@@ -48,10 +47,6 @@
 ### TM2Scratch
 
 - 2020/6/1 文言変更、閾値 -> しきい値
-
-### TMPose2Scratch
-
-- 2020/12/28 Initial release
 
 ### Handpose2Scratch
 
