@@ -8,6 +8,7 @@
 - [Posenet2Scratch](https://github.com/champierre/posenet2scratch) 人の姿勢を検出し、身体の各部分のxとyの位置を取得できます。
 - [micro:bit More](https://lab.yengawa.com/project/scratch-microbit-more/) Scratchに付属するmicro:bit拡張よりも高機能で、micro:bitに備わっているセンサーや出力の機能をほぼすべて利用できます。
 - [TM2Scratch](https://github.com/champierre/tm2scratch) Google Teachable Machine(https://teachablemachine.withgoogle.com/)で作成できる学習モデルを利用して、機械学習を使った画像認識、音声認識が利用できます。
+- [TMPose2Scratch](https://github.com/champierre/tmpose2scratch) Google Teachable Machine(https://teachablemachine.withgoogle.com/)で作成できる学習モデルを利用して、機械学習を使った体のポーズの認識が利用できます。
 - [Scratch2Maqueen](https://github.com/champierre/scratch2maqueen) グラフィカルプログラミングロボットMaqueenをScratchからリアルタイムにプログラムできます。
 - [Facemesh2Scratch](https://github.com/champierre/facemesh2scratch) Webカメラだけで顔のトラッキングができます。
 - [Handpose2Scratch](https://github.com/champierre/handpose2scratch) Webカメラだけで手と指のトラッキングができます。
@@ -17,7 +18,6 @@
 - [ImageClassifier2Scratch](https://github.com/champierre/ic2scratch) Webカメラに映った物体を認識し、それが何であるかを判定します。
 - [iftttWebhooks](https://github.com/NorifumiOgawa/iftttWebhooks) ScratchがIFTTTを経由して他のサービスと連携します。
 - [NumberBank](https://github.com/con3office/numberbank) クラウドに数字を保存できる。
-- [TMPose2Scratch](https://github.com/champierre/tmpose2scratch) Google Teachable Machine(https://teachablemachine.withgoogle.com/)で作成できる学習モデルを利用して、機械学習を使った体のポーズの認識が利用できます。
 
 ## How to add a custom extension.
 
