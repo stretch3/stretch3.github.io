@@ -2,6 +2,10 @@
 
 *Read this in other languages: [English](README.en.md), [日本語](README.md)*
 
+Stretch3 is available at https://stretch3.github.io/.
+
+Please refer to each home page listed below, for the License of each extension.
+
 ## Note
 
 TM2Scratch and TMPose2Scratch are not compatible, so you cannot use them at the same time.

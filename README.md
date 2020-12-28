@@ -2,6 +2,10 @@
 
 *Read this in other languages: [English](README.en.md), [日本語](README.md)*
 
+Stretch3 は https://stretch3.github.io/ より利用できます。
+
+各拡張機能のライセンス、商用利用可能かどうかといった利用条件については、下記「利用できる独自拡張機能」のそれぞれのリンク先をご参照ください。
+
 ## 注意事項
 
 TM2Scratch と TMPose2Scratch はライブラリの相性の関係で、両方を同時に使うことはいまのところできません。
