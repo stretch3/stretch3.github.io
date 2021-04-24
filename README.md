@@ -67,6 +67,7 @@ TM2Scratch と TMPose2Scratch はライブラリの相性の関係で、両方�
 - 2020/6/6 "Handpose tfjs Error - No backend found in registry" を修正。
 - 2020/6/7 Add description of each landmark.
 - 2021/4/14 バナー画像とアイコン画像を更新。
+- 2021/4/24 iOSに対応。
 
 ### Facemesh2Scratch
 
@@ -85,6 +86,7 @@ TM2Scratch と TMPose2Scratch はライブラリの相性の関係で、両方�
 ### ImageClassifier2Scratch
 
 - 2020/06/20 文言変更、精度 -> 確信度。
+- 2021/4/24 iOSに対応。
 
 ### iftttWebhooks
 
