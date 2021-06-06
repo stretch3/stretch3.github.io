@@ -81,6 +81,7 @@ TM2Scratch と TMPose2Scratch はライブラリの相性の関係で、両方�
 
 - 2020/6/6 Update repo of microbit-more.
 - 2021/3/28 Update to Microbit More v2
+- 2021/6/6 Update to Microbit More v2(0.2.1)
 
 ### Posenet2Scratch
 
