@@ -42,6 +42,7 @@ TM2Scratch と TMPose2Scratch はライブラリの相性の関係で、両方�
 - 3.0.2 2020/04/18 「ビデオを切にする」と「カメラの画像を学習/判定する」などのブロックを続けて使用した時、あとに続けたブロックが実行されないバグを修正しました。
 - 3.0.3 2021/04/11 iPadに対応
 - 3.0.4 2021/05/05 繁體中文版のブロックを追加(CAVEDU Education https://github.com/cavedunissin より提供)
+- 3.0.5 2021/07/22 Show alert dialog on the upload window(https://github.com/champierre/ml2scratch/pull/35)
 
 ### PaSoRich
 
