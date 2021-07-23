@@ -28,7 +28,7 @@ jobs:
           path: ./posenet2scratch
       - uses: actions/checkout@v2
         with:
-          repository: yokobond/mbit-more-v2
+          repository: microbit-more/mbit-more-v2
           path: ./microbitMore
       - uses: actions/checkout@v2
         with:
