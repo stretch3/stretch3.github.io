@@ -29,7 +29,7 @@ TM2Scratch と TMPose2Scratch はライブラリの相性の関係で、両方�
 
 ## How to add a custom extension.
 
-- TBD
+TBD
 
 ## Release Notes
 
