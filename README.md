@@ -59,6 +59,7 @@ TBD
 ### TM2Scratch
 
 - 2020/6/1 文言変更、閾値 -> しきい値
+- 2021/10/11 Localized for Korean.
 
 ### TMPose2Scratch
 
