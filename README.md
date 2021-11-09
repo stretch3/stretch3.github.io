@@ -60,6 +60,7 @@ TBD
 
 - 2020/6/1 文言変更、閾値 -> しきい値
 - 2021/10/11 Localized for Korean.
+- 2021/11/9 Localized for Traditional Chinese.
 
 ### TMPose2Scratch
 
