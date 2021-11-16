@@ -61,10 +61,12 @@ TBD
 - 2020/6/1 文言変更、閾値 -> しきい値
 - 2021/10/11 Localized for Korean.
 - 2021/11/9 Localized for Traditional Chinese.
+- 2021/11/16 Enable to localize extension description and sample model urls.
 
 ### TMPose2Scratch
 
 - 2020/12/28 Initial release
+- 2021/11/16 Enable to localize extension description and sample model url.
 
 ### Handpose2Scratch
 
