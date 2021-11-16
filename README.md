@@ -91,6 +91,7 @@ TBD
 
 - 2020/06/18 「ビデオを「切」にする」ブロックで、変数をプルダウンメニューの中に入れられないように変更。
 - 2021/05/09 ビデオの透明度を変更するブロックを追加。
+- 2021/11/16 Localized for Traditional Chinese.
 
 ### ImageClassifier2Scratch
 
