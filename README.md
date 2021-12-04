@@ -67,6 +67,7 @@ TBD
 
 - 2020/12/28 Initial release
 - 2021/11/16 Enable to localize extension description and sample model url.
+- 2021/12/4 Localized for Korean.
 
 ### Handpose2Scratch
 
