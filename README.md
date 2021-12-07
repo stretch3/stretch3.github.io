@@ -62,6 +62,7 @@ TBD
 - 2021/10/11 Localized for Korean.
 - 2021/11/9 Localized for Traditional Chinese.
 - 2021/11/16 Enable to localize extension description and sample model urls.
+- 2021/12/7 Add Korean extension description.
 
 ### TMPose2Scratch
 
