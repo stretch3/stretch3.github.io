@@ -68,7 +68,8 @@ TBD
 
 - 2020/12/28 Initial release
 - 2021/11/16 Enable to localize extension description and sample model url.
-- 2021/12/4 Localized for Korean.
+- 2021/12/04 Localized for Korean.
+- 2022/01/19 Fix [TMPose2Scratchの認識結果ラベルが受け取れない](https://github.com/champierre/tmpose2scratch/issues/2)
 
 ### Handpose2Scratch
 
