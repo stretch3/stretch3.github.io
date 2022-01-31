@@ -40,6 +40,10 @@ jobs:
           path: ./tmpose2scratch
       - uses: actions/checkout@v2
         with:
+          repository: tfabworks/xcx-g2s
+          path: ./xcx-g2s
+      - uses: actions/checkout@v2
+        with:
           repository: champierre/scratch2maqueen
           path: ./scratch2maqueen
       - uses: actions/checkout@v2
@@ -83,6 +87,7 @@ jobs:
       - run: sh ./handpose2scratch/install.sh
       - run: sh ./facemesh2scratch/install.sh
       - run: sh ./scratch2maqueen/install.sh
+      - run: sh ./xcx-g2s/scripts/stretch3-install.sh
       - run: sh ./tmpose2scratch/install.sh
       - run: sh ./tm2scratch/install.sh
       - run: sh ./microbitMore/install-stretch3.sh

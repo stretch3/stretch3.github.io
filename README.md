@@ -71,6 +71,10 @@ TBD
 - 2021/12/04 Localized for Korean.
 - 2022/01/19 Fix [TMPose2Scratchの認識結果ラベルが受け取れない](https://github.com/champierre/tmpose2scratch/issues/2)
 
+### Grove2Scratch
+
+- 2022/01/31 Initial release
+
 ### Handpose2Scratch
 
 - 2020/6/6 "Handpose tfjs Error - No backend found in registry" を修正。
