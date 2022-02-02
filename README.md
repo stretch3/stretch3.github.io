@@ -74,6 +74,7 @@ TBD
 ### Grove2Scratch
 
 - 2022/01/31 Initial release
+- 2022/02/02 拡張機能の説明がundefinedとなっていたのを修正
 
 ### Handpose2Scratch
 
