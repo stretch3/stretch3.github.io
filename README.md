@@ -78,6 +78,7 @@ TBD
 - 2022/02/14 0.8.1を取り込み、拡張機能の説明がundefinedとなっているのを修正。
 - 2022/02/25 0.9.0にアップデート。
 
+
 ### Handpose2Scratch
 
 - 2020/6/6 "Handpose tfjs Error - No backend found in registry" を修正。
