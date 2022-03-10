@@ -50,6 +50,7 @@ TBD
 - 0.4.3 2020/03/20 Improve Connect function
 
 ### scratch3-qrcode
+- v1.5 2022/03/10 Improve English localization
 - v1.4 2020/05/18 Fix null character issue in binary data.
 - v1.3 2020/05/15 Fix font-size of credit.
 - v1.2 2020/05/14 Add UTF-16 decoder.
