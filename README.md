@@ -106,6 +106,7 @@ TBD
 - 2021/05/09 ビデオの透明度を変更するブロックを追加。
 - 2021/11/16 Localized for Traditional Chinese.
 - 2021/12/16 最高10人までのポーズを認識できるようにした。
+- 2022/03/13 ビデオを切->入の操作を繰り返した場合に姿勢の検出ができなくなってしまうバグを修正。([sosu83](https://scratch.mit.edu/users/sosu83/)さんからのバグ報告で判明しました。)
 
 ### ImageClassifier2Scratch
 
