@@ -117,6 +117,7 @@ TBD
 ### iftttWebhooks
 
 - 2020/08/03 v1.0 Initial release
+- 2022/03/13 Multilingual support(en, zh-cn, th)
 
 ### numberbank
 - 2020/10/10 Initial release
