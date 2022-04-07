@@ -17,6 +17,7 @@ TM2Scratch and TMPose2Scratch are not compatible, so you cannot use them at the 
 - [micro:bit More](https://lab.yengawa.com/project/scratch-microbit-more/) It's more advanced than the micro:bit extension that comes with Scratch and takes advantage of almost all of the sensor and output capabilities that micro:bit has.
 - [TM2Scratch](https://github.com/champierre/tm2scratch) Image and speech recognition with machine learning based on learning models that can be created with Google Teachable Machine (https://teachablemachine.withgoogle.com/).
 - [TMPose2Scratch](https://github.com/champierre/tmpose2scratch) Pose recognition with machine learning based on learning models that can be created with Google Teachable Machine (https://teachablemachine.withgoogle.com/).
+- [AkaDako(Grove2Scratch)](https://github.com/tfabworks/xcx-g2s) You can program [AkaDako](https://akadako.com) which can control Grove's sensors and actuators by simply connecting a USB cable.
 - [Scratch2Maqueen](https://github.com/champierre/scratch2maqueen) You can program Maqueen, a graphical programming robot, in real time from Scratch.
 - [Facemesh2Scratch](https://github.com/champierre/facemesh2scratch) You can track your face with just a webcam.
 - [Handpose2Scratch](https://github.com/champierre/handpose2scratch) You can track your hands and fingers with just a webcam.

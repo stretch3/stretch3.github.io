@@ -17,6 +17,7 @@ TM2Scratch と TMPose2Scratch はライブラリの相性の関係で、両方�
 - [micro:bit More](https://lab.yengawa.com/project/scratch-microbit-more/) Scratchに付属するmicro:bit拡張よりも高機能で、micro:bitに備わっているセンサーや出力の機能をほぼすべて利用できます。
 - [TM2Scratch](https://github.com/champierre/tm2scratch) Google Teachable Machine(https://teachablemachine.withgoogle.com/)で作成できる学習モデルを利用して、機械学習を使った画像認識、音声認識が利用できます。
 - [TMPose2Scratch](https://github.com/champierre/tmpose2scratch) Google Teachable Machine(https://teachablemachine.withgoogle.com/)で作成できる学習モデルを利用して、機械学習を使った体のポーズの認識が利用できます。
+- [AkaDako(Grove2Scratch)](https://github.com/tfabworks/xcx-g2s) USBケーブルを接続するだけでGroveのセンサー・アクチュエーターを制御できる[AkaDako（アカダコ）](https://akadako.com/)をScratchからプログラミングできます。
 - [Scratch2Maqueen](https://github.com/champierre/scratch2maqueen) グラフィカルプログラミングロボットMaqueenをScratchからリアルタイムにプログラムできます。
 - [Facemesh2Scratch](https://github.com/champierre/facemesh2scratch) Webカメラだけで顔のトラッキングができます。
 - [Handpose2Scratch](https://github.com/champierre/handpose2scratch) Webカメラだけで手と指のトラッキングができます。
@@ -73,7 +74,7 @@ TBD
 - 2021/12/04 Localized for Korean.
 - 2022/01/19 Fix [TMPose2Scratchの認識結果ラベルが受け取れない](https://github.com/champierre/tmpose2scratch/issues/2)
 
-### Grove2Scratch
+### AkaDako(Grove2Scratch)
 
 - 2022/01/31 Initial release
 - 2022/02/02 拡張機能の説明がundefinedとなっていたのを修正。
