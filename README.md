@@ -15,8 +15,8 @@ TM2Scratch と TMPose2Scratch はライブラリの相性の関係で、両方�
 - [ML2Scratch](https://github.com/champierre/ml2scratch) 機械学習を使った画像認識が簡単に体験、利用できます。
 - [Posenet2Scratch](https://github.com/champierre/posenet2scratch) 人の姿勢を検出し、身体の各部分のxとyの位置を取得できます。
 - [micro:bit More](https://lab.yengawa.com/project/scratch-microbit-more/) Scratchに付属するmicro:bit拡張よりも高機能で、micro:bitに備わっているセンサーや出力の機能をほぼすべて利用できます。
-- [TM2Scratch](https://github.com/champierre/tm2scratch) Google Teachable Machine(https://teachablemachine.withgoogle.com/)で作成できる学習モデルを利用して、機械学習を使った画像認識、音声認識が利用できます。
-- [TMPose2Scratch](https://github.com/champierre/tmpose2scratch) Google Teachable Machine(https://teachablemachine.withgoogle.com/)で作成できる学習モデルを利用して、機械学習を使った体のポーズの認識が利用できます。
+- [TM2Scratch](https://github.com/champierre/tm2scratch) [Google Teachable Machine](https://teachablemachine.withgoogle.com/)で作成できる学習モデルを利用して、機械学習を使った画像認識、音声認識が利用できます。
+- [TMPose2Scratch](https://github.com/champierre/tmpose2scratch) [Google Teachable Machine](https://teachablemachine.withgoogle.com/)で作成できる学習モデルを利用して、機械学習を使った体のポーズの認識が利用できます。
 - [AkaDako(Grove2Scratch)](https://github.com/tfabworks/xcx-g2s) USBケーブルを接続するだけでGroveのセンサー・アクチュエーターを制御できる[AkaDako（アカダコ）](https://akadako.com/)をScratchからプログラミングできます。
 - [Scratch2Maqueen](https://github.com/champierre/scratch2maqueen) グラフィカルプログラミングロボットMaqueenをScratchからリアルタイムにプログラムできます。
 - [Facemesh2Scratch](https://github.com/champierre/facemesh2scratch) Webカメラだけで顔のトラッキングができます。
