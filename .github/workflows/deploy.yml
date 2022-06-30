@@ -78,6 +78,11 @@ jobs:
         with:
           repository: con3office/numberbank
           path: ./numberbank
+      - uses: actions/checkout@v2
+        with:
+          repository: bricklife/scratch-lego-bluetooth-extensions
+          path: ./scratch-lego-bluetooth-extensions
+      - run: sh ./scratch-lego-bluetooth-extensions/scripts/install.sh duplotrain
       - run: sh ./numberbank/install.sh
       - run: sh ./iftttWebhooks/install.sh
       - run: sh ./ic2scratch/install.sh
