@@ -27,6 +27,7 @@ TM2Scratch と TMPose2Scratch はライブラリの相性の関係で、両方�
 - [ImageClassifier2Scratch](https://github.com/champierre/ic2scratch) Webカメラに映った物体を認識し、それが何であるかを判定します。
 - [iftttWebhooks](https://github.com/NorifumiOgawa/iftttWebhooks) ScratchがIFTTTを経由して他のサービスと連携します。
 - [NumberBank](https://github.com/con3office/numberbank) クラウドに数字を保存できる。
+- [LEGO DUPLO Train](https://github.com/bricklife/scratch-lego-bluetooth-extensions) レゴ デュプロの機関車をScratchからコントロールすることができます。
 
 ## How to add a custom extension.
 
@@ -132,3 +133,6 @@ TBD
 ### Speech2Scratch
 - 2020/12/15 Xcratch対応版を用意した。
 - 2021/03/10 [Initialize Reporter Block at the start of recognition](https://github.com/champierre/speech2scratch/pull/5)
+
+### LEGO DUPLO Train
+- 2022/06/30 Initial release

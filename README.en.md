@@ -26,6 +26,8 @@ TM2Scratch and TMPose2Scratch are not compatible, so you cannot use them at the 
 - [Speech2Scratch](https://github.com/champierre/speech2scratch) converts speech to text using the browser's speech recognition feature.
 - [ImageClassifier2Scratch](https://github.com/champierre/ic2scratch) Recognizes an object captured by a webcam and determines what it is.
 - [iftttWebhooks][https://github.com/NorifumiOgawa/iftttWebhooks] Scratch works with other services via IFTTT.
+- [NumberBank](https://github.com/con3office/numberbank) Numbers can be stored in the cloud.
+- [LEGO DUPLO Train](https://github.com/bricklife/scratch-lego-bluetooth-extensions) LEGO DUPLO locomotives can be controlled from Scratch.
 
 ## How to add a custom extension
 
