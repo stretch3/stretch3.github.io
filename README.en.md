@@ -28,6 +28,7 @@ TM2Scratch and TMPose2Scratch are not compatible, so you cannot use them at the 
 - [iftttWebhooks][https://github.com/NorifumiOgawa/iftttWebhooks] Scratch works with other services via IFTTT.
 - [NumberBank](https://github.com/con3office/numberbank) Numbers can be stored in the cloud.
 - [LEGO DUPLO Train](https://github.com/bricklife/scratch-lego-bluetooth-extensions) LEGO DUPLO locomotives can be controlled from Scratch.
+- [Geo Scratch](https://github.com/geolonia/x-geo-scratch) Geolonia Maps can be controlled from Scratch.
 
 ## How to add a custom extension
 
