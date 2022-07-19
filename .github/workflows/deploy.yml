@@ -82,6 +82,11 @@ jobs:
         with:
           repository: bricklife/scratch-lego-bluetooth-extensions
           path: ./scratch-lego-bluetooth-extensions
+      - uses: actions/checkout@v2
+        with:
+          repository: geolonia/x-geo-scratch
+          path: ./geoscratch
+      - run: sh ./geoscratch/install.sh
       - run: sh ./scratch-lego-bluetooth-extensions/scripts/install.sh duplotrain
       - run: sh ./numberbank/install.sh
       - run: sh ./iftttWebhooks/install.sh

@@ -28,6 +28,7 @@ TM2Scratch と TMPose2Scratch はライブラリの相性の関係で、両方�
 - [iftttWebhooks](https://github.com/NorifumiOgawa/iftttWebhooks) ScratchがIFTTTを経由して他のサービスと連携します。
 - [NumberBank](https://github.com/con3office/numberbank) クラウドに数字を保存できる。
 - [LEGO DUPLO Train](https://github.com/bricklife/scratch-lego-bluetooth-extensions) レゴ デュプロの機関車をScratchからコントロールすることができます。
+- [Geo Scratch](https://github.com/geolonia/x-geo-scratch) 地図(Geolonia Maps)をScratchからコントロールすることができます。
 
 ## How to add a custom extension.
 
@@ -136,3 +137,6 @@ TBD
 
 ### LEGO DUPLO Train
 - 2022/06/30 Initial release
+
+### Geo Scratch
+- 2022/07/19 Initial release
