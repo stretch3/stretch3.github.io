@@ -75,6 +75,7 @@ TBD
 - 2021/11/16 Enable to localize extension description and sample model url.
 - 2021/12/04 Localized for Korean.
 - 2022/01/19 Fix [TMPose2Scratchの認識結果ラベルが受け取れない](https://github.com/champierre/tmpose2scratch/issues/2)
+- 2022/08/04 Fix [tmPose is undefined when tmpose2scratch was loaded at first.](https://github.com/champierre/tmpose2scratch/issues/4)
 
 ### AkaDako(Grove2Scratch)
 
@@ -137,6 +138,7 @@ TBD
 
 ### LEGO DUPLO Train
 - 2022/06/30 Initial release
+- 2022/08/04 [Refine LEGO DUPLO Train extension](https://github.com/bricklife/scratch-lego-bluetooth-extensions/pull/11)
 
 ### Geo Scratch
 - 2022/07/19 Initial release
