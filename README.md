@@ -143,3 +143,4 @@ TBD
 ### Geo Scratch
 - 2022/07/19 Initial release
 - 2022/08/05 ステージの透明度を変更できるようにする。
+- 2022/10/17 [全画面にしたときにスプライトが消えてしまうバグを修正](https://github.com/geolonia/x-geo-scratch/commit/f2bcb67f886a65cfbe0801e37796eaf351d09b60)
