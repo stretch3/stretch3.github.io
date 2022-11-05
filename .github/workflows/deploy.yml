@@ -29,6 +29,7 @@ jobs:
       - uses: actions/checkout@v2
         with:
           repository: microbit-more/mbit-more-v2
+          ref: stretch3
           path: ./microbitMore
       - uses: actions/checkout@v2
         with:
