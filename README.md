@@ -75,6 +75,7 @@ TBD
 - 2021/11/16 Enable to localize extension description and sample model url.
 - 2021/12/04 Localized for Korean.
 - 2022/01/19 Fix [TMPose2Scratchの認識結果ラベルが受け取れない](https://github.com/champierre/tmpose2scratch/issues/2)
+- 2022/08/04 Fix [tmPose is undefined when tmpose2scratch was loaded at first.](https://github.com/champierre/tmpose2scratch/issues/4)
 
 ### AkaDako(Grove2Scratch)
 
@@ -83,6 +84,7 @@ TBD
 - 2022/02/14 0.8.1を取り込み、拡張機能の説明がundefinedとなっているのを修正。
 - 2022/02/25 0.9.0にアップデート。
 - 2022/03/31 0.10.0にアップデート。
+- 2022/12/06 0.11.0にアップデート。
 
 ### Handpose2Scratch
 
@@ -138,6 +140,10 @@ TBD
 
 ### LEGO DUPLO Train
 - 2022/06/30 Initial release
+- 2022/08/04 [Refine LEGO DUPLO Train extension](https://github.com/bricklife/scratch-lego-bluetooth-extensions/pull/11)
 
 ### Geo Scratch
 - 2022/07/19 Initial release
+- 2022/08/05 ステージの透明度を変更できるようにする。
+- 2022/10/17 [全画面にしたときにスプライトが消えてしまうバグを修正](https://github.com/geolonia/x-geo-scratch/commit/f2bcb67f886a65cfbe0801e37796eaf351d09b60)
+- 2022/10/20 [「地図を〜で表示」を2回目以降実行したときの処理を修正、地図を再描画する。](https://github.com/geolonia/x-geo-scratch/commit/a5287a19d93d137923485e56677568f72bc1d5b3)
