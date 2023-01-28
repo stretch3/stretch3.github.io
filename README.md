@@ -68,6 +68,7 @@ TBD
 - 2021/11/16 Enable to localize extension description and sample model urls.
 - 2021/12/07 Add Korean extension description.
 - 2022/04/03 Teachable Machineの学習に使われる画像が正方形なので、これにあわせて判定に使うカメラ画像の両端を無視して、分類精度を向上させた。
+- 2023/01/29 Teachable Machine側でラベルや学習内容を変更しても、TM2Scratch側に即座に反映されなかった問題を修正。
 
 ### TMPose2Scratch
 
