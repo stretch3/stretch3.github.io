@@ -29,6 +29,7 @@ TM2Scratch and TMPose2Scratch are not compatible, so you cannot use them at the 
 - [NumberBank](https://github.com/con3office/numberbank) Numbers can be stored in the cloud.
 - [LEGO DUPLO Train](https://github.com/bricklife/scratch-lego-bluetooth-extensions) LEGO DUPLO locomotives can be controlled from Scratch.
 - [Geo Scratch](https://github.com/geolonia/x-geo-scratch) Geolonia Maps can be controlled from Scratch.
+- [ChatGPT2Scratch](https://github.com/ichiroc/chatgpt2scratch) ChatGPT can be used from Scratch.
 
 ## How to add a custom extension
 

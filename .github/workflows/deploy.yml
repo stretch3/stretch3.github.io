@@ -88,6 +88,11 @@ jobs:
         with:
           repository: geolonia/x-geo-scratch
           path: ./geoscratch
+      - uses: actions/checkout@v2
+        with:
+          repository: ichiroc/chatgpt2scratch
+          path: ./chatgpt2scratch
+      - run: sh ./chatgpt2scratch/install.sh
       - run: sh ./geoscratch/install.sh
       - run: sh ./scratch-lego-bluetooth-extensions/scripts/install.sh duplotrain
       - run: sh ./numberbank/install.sh

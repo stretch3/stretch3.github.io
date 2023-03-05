@@ -36,6 +36,7 @@ TM2Scratch と TMPose2Scratch はライブラリの相性の関係で、両方�
 - [NumberBank](https://github.com/con3office/numberbank) クラウドに数字を保存できる。
 - [LEGO DUPLO Train](https://github.com/bricklife/scratch-lego-bluetooth-extensions) レゴ デュプロの機関車をScratchからコントロールすることができます。
 - [Geo Scratch](https://github.com/geolonia/x-geo-scratch) 地図(Geolonia Maps)をScratchからコントロールすることができます。
+- [ChatGPT2Scratch](https://github.com/ichiroc/chatgpt2scratch) ScratchからChatGPTを使うことができます。
 
 ## How to add a custom extension.
 
@@ -158,3 +159,6 @@ TBD
 - 2022/08/05 ステージの透明度を変更できるようにする。
 - 2022/10/17 [全画面にしたときにスプライトが消えてしまうバグを修正](https://github.com/geolonia/x-geo-scratch/commit/f2bcb67f886a65cfbe0801e37796eaf351d09b60)
 - 2022/10/20 [「地図を〜で表示」を2回目以降実行したときの処理を修正、地図を再描画する。](https://github.com/geolonia/x-geo-scratch/commit/a5287a19d93d137923485e56677568f72bc1d5b3)
+
+### ChatGPT2Scratch
+- 2023/03/05 Initial release
