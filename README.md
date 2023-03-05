@@ -159,6 +159,7 @@ TBD
 - 2022/08/05 ステージの透明度を変更できるようにする。
 - 2022/10/17 [全画面にしたときにスプライトが消えてしまうバグを修正](https://github.com/geolonia/x-geo-scratch/commit/f2bcb67f886a65cfbe0801e37796eaf351d09b60)
 - 2022/10/20 [「地図を〜で表示」を2回目以降実行したときの処理を修正、地図を再描画する。](https://github.com/geolonia/x-geo-scratch/commit/a5287a19d93d137923485e56677568f72bc1d5b3)
+- 2023/03/04 [全画面表示のときに透明度を変更しても、画面の一部にしか反映されていなかったバグを修正。](https://github.com/geolonia/x-geo-scratch/commit/a7997fba6d033e810bc04b6ced54673b131133ab)
 
 ### ChatGPT2Scratch
 - 2023/03/05 Initial release
