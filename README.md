@@ -163,3 +163,4 @@ TBD
 
 ### ChatGPT2Scratch
 - 2023/03/05 Initial release
+- 2023/03/23 v1.1 Add set-timeout block, set-temperature block, and storing API keys in Session Storage feature.
