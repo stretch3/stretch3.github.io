@@ -165,3 +165,4 @@ TBD
 ### ChatGPT2Scratch
 - 2023/03/05 Initial release
 - 2023/03/23 v1.1 Add set-timeout block, set-temperature block, and storing API keys in Session Storage feature.
+- 2023/04/22 v2.0 Added the feature to have contextual conversations, Added "Clear message logs". The release note are [here](https://github.com/ichiroc/chatgpt2scratch/releases/tag/v2.0).
