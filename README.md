@@ -44,6 +44,7 @@ TBD
 
 ## Release Notes
 
+- 2023/06/29 Scratchの色の変更を反映させるため、最新版のscratch-guiでビルドし直す。
 - 2020/10/22 脆弱性対策のために、最新版のscratch-guiでビルドし直す。Ref. https://scratch.mit.edu/discuss/topic/12246/?page=40#post-4525760
 
 ### ML2Scratch
