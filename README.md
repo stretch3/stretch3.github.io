@@ -5,13 +5,15 @@ Stretch3は2020年よりオープンソースかつ無料で提供しており�
 
 <a href="https://www.buymeacoffee.com/champierre"><img src="https://user-images.githubusercontent.com/10215/215533679-bb41b1a2-ba42-4eb6-9f9a-6d0bd67f3aaa.png"></a>
 
-# Stretch3
+# Stretch3(ストレッチスリー)
 
-*Read this in other languages: [English](README.en.md), [日本語](README.md)*
+Stretch3(ストレッチスリー)は自作の拡張機能を使えるように改造したScratch(スクラッチ)です。音声認識や、画像や音声を学習させることができる機械学習、ChatGPTとも接続できるなどいろいろな拡張機能があります。
 
 Stretch3 は https://stretch3.github.io/ より利用できます。
 
 各拡張機能のライセンス、商用利用可能かどうかといった利用条件については、下記「利用できる独自拡張機能」のそれぞれのリンク先をご参照ください。
+
+*Read this in other languages: [English](README.en.md), [日本語](README.md)*
 
 ## 注意事項
 
@@ -30,7 +32,7 @@ TM2Scratch と TMPose2Scratch はライブラリの相性の関係で、両方�
 - [Handpose2Scratch](https://github.com/champierre/handpose2scratch) Webカメラだけで手と指のトラッキングができます。
 - [PaSoRich](https://github.com/con3office/pasorich) ICカードリーダー「PaSoRi」(パソリ)を利用して、SuicaなどのICカードを読み取ることができます。
 - [scratch3-qrcode](https://github.com/sugiura-lab/scratch3-qrcode) QRコードを読み取ります。QRコードは株式会社デンソーウェーブの登録商標です。
-- [Speech2Scratch](https://github.com/champierre/speech2scratch) ブラウザの音声認識機能を利用して、音声をテキストに変換します。
+- [Speech2Scratch(スピーチ トゥー スクラッチ)](https://github.com/champierre/speech2scratch) ブラウザの音声認識機能を利用して、音声をテキストに変換します。
 - [ImageClassifier2Scratch](https://github.com/champierre/ic2scratch) Webカメラに映った物体を認識し、それが何であるかを判定します。
 - [iftttWebhooks](https://github.com/NorifumiOgawa/iftttWebhooks) ScratchがIFTTTを経由して他のサービスと連携します。
 - [NumberBank](https://github.com/con3office/numberbank) クラウドに数字を保存できる。
