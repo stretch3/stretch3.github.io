@@ -173,3 +173,4 @@ TBD
 - 2023/04/22 v2.0 Added the feature to have contextual conversations, Added "Clear message logs". The release note are [here](https://github.com/ichiroc/chatgpt2scratch/releases/tag/v2.0).
 - 2023/05/13 v2.1 Return error message, Change timeout to 30000. The release note are [here](https://github.com/ichiroc/chatgpt2scratch/releases/tag/v2.1).
 - 2023/07/15 v2.1.1 add About API usage fees to README.
+- 2023/11/01 v2.1.2 fix fetchWithToken bug [here](https://github.com/ichiroc/chatgpt2scratch/releases/tag/v2.1.2)
