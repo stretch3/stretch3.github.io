@@ -7,9 +7,9 @@ Stretch3は2020年よりオープンソースかつ無料で提供しており�
 
 # Stretch3(ストレッチスリー)
 
-Stretch3(ストレッチスリー)は自作の拡張機能を使えるように改造したScratch(スクラッチ)です。音声認識や、画像や音声を学習させることができる機械学習、ChatGPTとも接続できるなどいろいろな拡張機能があります。
+Stretch3(ストレッチスリー)は自作の拡張機能を使えるように改造したScratch(スクラッチ)です。音声認識(スピーチ トゥー スクラッチ)、ポーズの認識(ポーズネット トゥー スクラッチ)、画像や音声を学習させることができる機械学習(エムエル トゥー スクラッチ)、ChatGPT(チャットジーピーティー トゥー スクラッチ)などが使えるいろいろな拡張機能があります。
 
-Stretch3 は https://stretch3.github.io/ より利用できます。
+https://stretch3.github.io/ より利用できます。
 
 各拡張機能のライセンス、商用利用可能かどうかといった利用条件については、下記「利用できる独自拡張機能」のそれぞれのリンク先をご参照ください。
 
@@ -21,8 +21,8 @@ TM2Scratch と TMPose2Scratch はライブラリの相性の関係で、両方�
 
 ## 利用できる独自拡張機能
 
-- [ML2Scratch](https://github.com/champierre/ml2scratch) 機械学習を使った画像認識が簡単に体験、利用できます。
-- [Posenet2Scratch](https://github.com/champierre/posenet2scratch) 人の姿勢を検出し、身体の各部分のxとyの位置を取得できます。
+- [ML2Scratch(エムエル トゥー スクラッチ)](https://github.com/champierre/ml2scratch) 機械学習を使った画像認識が簡単に体験、利用できます。
+- [Posenet2Scratch(ポーズネット トゥー スクラッチ)](https://github.com/champierre/posenet2scratch) 人の姿勢を検出し、身体の各部分のxとyの位置を取得できます。
 - [micro:bit More](https://lab.yengawa.com/project/scratch-microbit-more/) Scratchに付属するmicro:bit拡張よりも高機能で、micro:bitに備わっているセンサーや出力の機能をほぼすべて利用できます。
 - [TM2Scratch](https://github.com/champierre/tm2scratch) [Google Teachable Machine](https://teachablemachine.withgoogle.com/)で作成できる学習モデルを利用して、機械学習を使った画像認識、音声認識が利用できます。
 - [TMPose2Scratch](https://github.com/champierre/tmpose2scratch) [Google Teachable Machine](https://teachablemachine.withgoogle.com/)で作成できる学習モデルを利用して、機械学習を使った体のポーズの認識が利用できます。
@@ -38,7 +38,7 @@ TM2Scratch と TMPose2Scratch はライブラリの相性の関係で、両方�
 - [NumberBank](https://github.com/con3office/numberbank) クラウドに数字を保存できる。
 - [LEGO DUPLO Train](https://github.com/bricklife/scratch-lego-bluetooth-extensions) レゴ デュプロの機関車をScratchからコントロールすることができます。
 - [Geo Scratch](https://github.com/geolonia/x-geo-scratch) 地図(Geolonia Maps)をScratchからコントロールすることができます。
-- [ChatGPT2Scratch](https://github.com/ichiroc/chatgpt2scratch) ScratchからChatGPTを使うことができます。
+- [ChatGPT2Scratch(チャットジーピーティー トゥー スクラッチ)](https://github.com/ichiroc/chatgpt2scratch) ScratchからChatGPTを使うことができます。
 
 ## How to add a custom extension.
 
