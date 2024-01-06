@@ -95,7 +95,7 @@ jobs:
       - run: sh ./chatgpt2scratch/install.sh
       - run: sh ./geoscratch/install.sh
       - run: sh ./scratch-lego-bluetooth-extensions/scripts/install.sh duplotrain
-      - run: sh ./stretch3/numberbank/install.sh
+      - run: sh ./numberbank/install.sh
       - run: sh ./iftttWebhooks/install.sh
       - run: sh ./ic2scratch/install.sh
       - run: sh ./speech2scratch/install.sh
