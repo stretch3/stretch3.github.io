@@ -52,6 +52,7 @@ TBD
 
 ### ML2Scratch
 
+- 2024/02/03 [カメラ切り替えブロックを追加](https://github.com/champierre/ml2scratch/pull/65)
 - 2021/07/22 3.0.5 Show alert dialog on the upload window(https://github.com/champierre/ml2scratch/pull/35)
 - 2021/05/05 3.0.4 繁體中文版のブロックを追加(CAVEDU Education https://github.com/cavedunissin より提供)
 - 2021/04/11 3.0.3 iPadに対応
@@ -76,6 +77,7 @@ TBD
 
 ### TM2Scratch
 
+- 2024/02/03 [カメラ切り替えブロックを追加](https://github.com/champierre/tm2scratch/pull/41)
 - 2023/02/14 音声モデルを正しくロードできなかったバグを修正。
 - 2023/01/29 Teachable Machine側でラベルや学習内容を変更しても、TM2Scratch側に即座に反映されなかった問題を修正。
 - 2022/04/03 Teachable Machineの学習に使われる画像が正方形なので、これにあわせて判定に使うカメラ画像の両端を無視して、分類精度を向上させた。
