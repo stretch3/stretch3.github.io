@@ -30,6 +30,7 @@ TM2Scratch and TMPose2Scratch are not compatible, so you cannot use them at the 
 - [LEGO DUPLO Train](https://github.com/bricklife/scratch-lego-bluetooth-extensions) LEGO DUPLO locomotives can be controlled from Scratch.
 - [Geo Scratch](https://github.com/geolonia/x-geo-scratch) Geolonia Maps can be controlled from Scratch.
 - [ChatGPT2Scratch](https://github.com/ichiroc/chatgpt2scratch) ChatGPT can be used from Scratch.
+- [Scratch2WebSerialAPI](https://github.com/champierre/scratch2webserialapi/) You can perform serial communication using the Web Serial API from Scratch.
 
 ## How to add a custom extension
 

@@ -10,88 +10,93 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           repository: LLK/scratch-gui
           ref: develop
       - run: npm install
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           path: ./stretch3
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           repository: champierre/ml2scratch
           path: ./ml2scratch
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           repository: champierre/posenet2scratch
           path: ./posenet2scratch
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           repository: microbit-more/mbit-more-v2
           ref: stretch3
           path: ./microbitMore
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           repository: champierre/tm2scratch
           path: ./tm2scratch
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           repository: champierre/tmpose2scratch
           path: ./tmpose2scratch
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           repository: tfabworks/xcx-g2s
           ref: stretch3
           path: ./xcx-g2s
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           repository: champierre/scratch2maqueen
           path: ./scratch2maqueen
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           repository: champierre/handpose2scratch
           path: ./handpose2scratch
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           repository: champierre/facemesh2scratch
           path: ./facemesh2scratch
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           repository: con3office/pasorich
           path: ./pasorich
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           repository: sugiura-lab/scratch3-qrcode
           path: ./scratch3-qrcode
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           repository: champierre/speech2scratch
           path: ./speech2scratch
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           repository: champierre/ic2scratch
           path: ./ic2scratch
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           repository: NorifumiOgawa/iftttWebhooks
           path: ./iftttWebhooks
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           repository: con3office/numberbank
           path: ./numberbank
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           repository: bricklife/scratch-lego-bluetooth-extensions
           path: ./scratch-lego-bluetooth-extensions
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           repository: geolonia/x-geo-scratch
           path: ./geoscratch
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           repository: ichiroc/chatgpt2scratch
           path: ./chatgpt2scratch
+      - uses: actions/checkout@v3
+        with:
+          repository: champierre/scratch2webserialapi
+          path: ./scratch2webserialapi
+      - run: sh ./scratch2webserialapi/install.sh
       - run: sh ./chatgpt2scratch/install.sh
       - run: sh ./geoscratch/install.sh
       - run: sh ./scratch-lego-bluetooth-extensions/scripts/install.sh duplotrain
