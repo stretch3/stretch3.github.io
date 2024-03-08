@@ -99,14 +99,12 @@ jobs:
       - uses: actions/checkout@v3
         with:
           repository: tfabworks/xcx-cameraselector
-          ref: stretch3
           path: ./xcx-cameraselector
       - uses: actions/checkout@v3
         with:
           repository: tfabworks/xcx-screenshot
-          ref: stretch3
           path: ./xcx-screenshot
-      - run: sh ./xcx-screenshot/scripts/stretch3-install.sh
+      - run: sh ./xcx-screenshot/scrips/stretch3-install.sh
       - run: sh ./xcx-cameraselector/scripts/stretch3-install.sh
       - run: sh ./scratch2webserialapi/install.sh
       - run: sh ./chatgpt2scratch/install.sh
