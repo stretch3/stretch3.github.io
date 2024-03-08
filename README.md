@@ -54,6 +54,7 @@ TBD
 
 ### ML2Scratch
 
+- 2024/03/08 Xcratchからだと学習データのアップロードができない問題を修正しました。
 - 2024/02/03 [カメラ切り替えブロックを追加](https://github.com/champierre/ml2scratch/pull/65)
 - 2021/07/22 3.0.5 Show alert dialog on the upload window(https://github.com/champierre/ml2scratch/pull/35)
 - 2021/05/05 3.0.4 繁體中文版のブロックを追加(CAVEDU Education https://github.com/cavedunissin より提供)
