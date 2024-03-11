@@ -192,6 +192,7 @@ TBD
 
 ### Scratch2WebSerialAPI
 - 2024/02/03 Initial release
+- 2024/03/09 アイコンを差し替え
 
 ### Camera Selector
 - 2024/03/08 Initial release
