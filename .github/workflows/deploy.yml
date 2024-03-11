@@ -96,16 +96,6 @@ jobs:
         with:
           repository: champierre/scratch2webserialapi
           path: ./scratch2webserialapi
-      - uses: actions/checkout@v3
-        with:
-          repository: tfabworks/xcx-cameraselector
-          path: ./xcx-cameraselector
-      - uses: actions/checkout@v3
-        with:
-          repository: tfabworks/xcx-screenshot
-          path: ./xcx-screenshot
-      - run: sh ./xcx-screenshot/scrips/stretch3-install.sh
-      - run: sh ./xcx-cameraselector/scripts/stretch3-install.sh
       - run: sh ./scratch2webserialapi/install.sh
       - run: sh ./chatgpt2scratch/install.sh
       - run: sh ./geoscratch/install.sh
