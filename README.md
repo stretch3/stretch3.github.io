@@ -92,6 +92,7 @@ TBD
 
 ### TMPose2Scratch
 
+- 2024/06/18 Fix build error.
 - 2022/08/04 Fix [tmPose is undefined when tmpose2scratch was loaded at first.](https://github.com/champierre/tmpose2scratch/issues/4)
 - 2022/01/19 Fix [TMPose2Scratchの認識結果ラベルが受け取れない](https://github.com/champierre/tmpose2scratch/issues/2)
 - 2021/12/04 Localized for Korean.
