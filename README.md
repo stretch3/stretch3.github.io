@@ -80,6 +80,7 @@ TBD
 
 ### TM2Scratch
 
+- 2024/06/18 Fix build error.
 - 2024/02/03 [カメラ切り替えブロックを追加](https://github.com/champierre/tm2scratch/pull/41)
 - 2023/02/14 音声モデルを正しくロードできなかったバグを修正。
 - 2023/01/29 Teachable Machine側でラベルや学習内容を変更しても、TM2Scratch側に即座に反映されなかった問題を修正。
