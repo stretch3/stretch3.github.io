@@ -119,8 +119,8 @@ jobs:
       # TODO: ERR_OSSL_EVP_UNSUPPORTED エラーに対処するため、
       # NODE_OPTIONS を設定しているが、いずれは外したい。
       # Ref. https://zenn.dev/yogarasu/articles/425732ff408d06
-      - run: NODE_OPTIONS=--openssl-legacy-provider npm run build 
-      - run: cp ./stretch3/index.html ./build/index.html
+      - run: NODE_OPTIONS=--openssl-legacy-provider npm run build
+      - run: sh ./stretch3/modify_index_html.sh
       - uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
