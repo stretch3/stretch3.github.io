@@ -117,6 +117,7 @@ TBD
 
 ### Handpose2Scratch
 
+- 2024/06/18 Fix runtime error: "landmark_menu is undefined"
 - 2021/08/29 z座標を取得できるブロックを追加。
 - 2021/05/09 ビデオの透明度を変更するブロックを追加。
 - 2021/4/24 iOSに対応。
