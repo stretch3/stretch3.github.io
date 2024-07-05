@@ -76,10 +76,10 @@ jobs:
         with:
           repository: NorifumiOgawa/iftttWebhooks
           path: ./iftttWebhooks
-      # - uses: actions/checkout@v4
-      #   with:
-      #     repository: con3office/numberbank
-      #     path: ./numberbank
+      - uses: actions/checkout@v4
+        with:
+          repository: con3office/numberbank
+          path: ./numberbank
       - uses: actions/checkout@v4
         with:
           repository: bricklife/scratch-lego-bluetooth-extensions
@@ -100,7 +100,7 @@ jobs:
       - run: sh ./chatgpt2scratch/install.sh
       - run: sh ./geoscratch/install.sh
       - run: sh ./scratch-lego-bluetooth-extensions/scripts/install.sh duplotrain
-      # - run: sh ./numberbank/install.sh
+      - run: sh ./numberbank/install.sh
       - run: sh ./iftttWebhooks/install.sh
       - run: sh ./ic2scratch/install.sh
       - run: sh ./speech2scratch/install.sh
