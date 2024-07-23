@@ -183,6 +183,7 @@ TBD
 
 ### ChatGPT2Scratch
 
+- 2024/07/23 v2.3 change the model to gpt-4o-mini [here](https://github.com/ichiroc/chatgpt2scratch/releases/tag/v2.3)
 - 2024/06/17 v2.2 add system prompt setting [here](https://github.com/ichiroc/chatgpt2scratch/releases/tag/v2.2)
 - 2023/11/01 v2.1.2 fix fetchWithToken bug [here](https://github.com/ichiroc/chatgpt2scratch/releases/tag/v2.1.2)
 - 2023/07/15 v2.1.1 add About API usage fees to README.
