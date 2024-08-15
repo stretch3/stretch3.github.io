@@ -200,7 +200,4 @@ TBD
 - 2024/03/09 アイコンを差し替え
 
 ### Camera Selector
-- 2024/03/08 Initial release
-
-### Screenshot
-- 2024/03/08 Initial release
+- 2024/08/15 Initial release
