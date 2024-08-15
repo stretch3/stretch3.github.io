@@ -206,5 +206,5 @@ TBD
 ### Screenshot
 - 2024/08/15 Initial release
 
-### WebAPI
+### Data Tool
 - 2024/08/15 Initial release
