@@ -100,6 +100,16 @@ jobs:
         with:
           repository: tfabworks/xcx-cameraselector
           path: ./xcx-cameraselector
+      - uses: actions/checkout@v4
+        with:
+          repository: tfabworks/xcx-screenshot
+          path: ./xcx-screenshot
+      - uses: actions/checkout@v4
+        with:
+          repository: tfabworks/xcx-webapi
+          path: ./xcx-webapi
+      - run: sh ./xcx-webapi/scripts/stretch3-install.sh
+      - run: sh ./xcx-screenshot/scripts/stretch3-install.sh
       - run: sh ./xcx-cameraselector/scripts/stretch3-install.sh
       - run: sh ./scratch2webserialapi/install.sh
       - run: sh ./chatgpt2scratch/install.sh

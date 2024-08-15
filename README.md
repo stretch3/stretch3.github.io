@@ -202,3 +202,9 @@ TBD
 
 ### Camera Selector
 - 2024/08/15 Initial release
+
+### Screenshot
+- 2024/08/15 Initial release
+
+### WebAPI
+- 2024/08/15 Initial release
