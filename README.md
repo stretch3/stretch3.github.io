@@ -42,6 +42,7 @@ TM2Scratch と TMPose2Scratch はライブラリの相性の関係で、両方�
 - [Scratch2WebSerialAPI](https://github.com/champierre/scratch2webserialapi/) ScratchからWeb Serial APIを使ってシリアル通信をすることができます。
 - [CameraSelector](https://github.com/tfabworks/xcx-cameraselector) Scratchから使用するカメラデバイスを切り替えられるようにする拡張です。
 - [Screenshot](https://github.com/tfabworks/xcx-screenshot) ステージのスクリーンショットを撮ることができる拡張機能です。
+- [Data Tool](https://github.com/tfabworks/xcx-webapi) 任意のWebAPIにアクセスし、返ってきたJSONデータをパースできる拡張機能です。
 
 ## How to add a custom extension.
 
