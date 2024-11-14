@@ -10,7 +10,7 @@ https://stretch3.github.io/ より利用できます。
 
 ## Supported by
 
-Stretch3は、[TFabWorks](https://tfabworks.com/)や、[Buy Me a Coffee]((https://www.buymeacoffee.com/champierre))より支援してくださった協賛・支援を受けて開発・運営しています。
+Stretch3は、[TFabWorks](https://tfabworks.com/)や、[Buy Me a Coffee](https://www.buymeacoffee.com/champierre)より支援してくださった協賛・支援を受けて開発・運営しています。
 
 <a href="https://tfabworks.com/"><img src="tfabworks-logo.png" /></a>
 
