@@ -181,6 +181,7 @@ TM2Scratch と TMPose2Scratch はライブラリの相性の関係で、両方�
 
 ### ChatGPT2Scratch
 
+- 2025/01/28 v2.4 Enabling Azure API for CoderDojo Japan [here](https://github.com/ichiroc/chatgpt2scratch/releases/tag/v2.4)
 - 2024/07/23 v2.3 change the model to gpt-4o-mini [here](https://github.com/ichiroc/chatgpt2scratch/releases/tag/v2.3)
 - 2024/06/17 v2.2 add system prompt setting [here](https://github.com/ichiroc/chatgpt2scratch/releases/tag/v2.2)
 - 2023/11/01 v2.1.2 fix fetchWithToken bug [here](https://github.com/ichiroc/chatgpt2scratch/releases/tag/v2.1.2)
