@@ -81,6 +81,8 @@ TBD
 
 ### TM2Scratch
 
+- 2025/01/29 [Added german language](https://github.com/champierre/tm2scratch/pull/42)
+- 2025/01/28 [Allow for other teachable machine URLs](https://github.com/champierre/tm2scratch/pull/44)
 - 2024/06/18 Fix build error.
 - 2024/02/03 [カメラ切り替えブロックを追加](https://github.com/champierre/tm2scratch/pull/41)
 - 2023/02/14 音声モデルを正しくロードできなかったバグを修正。
