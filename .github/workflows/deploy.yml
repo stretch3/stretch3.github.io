@@ -113,6 +113,9 @@ jobs:
       - run: sh ./xcx-cameraselector/scripts/stretch3-install.sh
       - run: sh ./scratch2webserialapi/install.sh
       - run: sh ./chatgpt2scratch/install.sh
+        env:
+          AZURE_API_KEY: ${{ secrets.AZURE_API_KEY }}
+          DOJO_KEY: ${{ secrets.DOJO_KEY }}
       - run: sh ./geoscratch/install.sh
       - run: sh ./scratch-lego-bluetooth-extensions/scripts/install.sh duplotrain
       - run: sh ./numberbank/install.sh
