@@ -1,10 +1,3 @@
-## サポートのお願い
-
-Stretch3は2020年よりオープンソースかつ無料で提供しており、学校や各種プログラミング教室はじめさまざまな場所で利用されております。継続して開発を続けるためには、使っていただいている皆さまからの支援が必要です。<br />
-[一杯のコーヒー](https://www.buymeacoffee.com/champierre)という形でサポートをいただけると大変ありがたく思います。
-
-<a href="https://www.buymeacoffee.com/champierre"><img src="https://user-images.githubusercontent.com/10215/215533679-bb41b1a2-ba42-4eb6-9f9a-6d0bd67f3aaa.png"></a>
-
 # Stretch3(ストレッチスリー)
 
 Stretch3(ストレッチスリー)は自作の拡張機能を使えるように改造したScratch(スクラッチ)です。音声認識(スピーチ トゥー スクラッチ)、ポーズの認識(ポーズネット トゥー スクラッチ)、画像や音声を学習させることができる機械学習(エムエル トゥー スクラッチ)、ChatGPT(チャットジーピーティー トゥー スクラッチ)などが使えるいろいろな拡張機能があります。
@@ -15,9 +8,16 @@ https://stretch3.github.io/ より利用できます。
 
 *Read this in other languages: [English](README.en.md), [日本語](README.md)*
 
-## 注意事項
+## Supported by
 
-TM2Scratch と TMPose2Scratch はライブラリの相性の関係で、両方を同時に使うことはいまのところできません。
+Stretch3は、[TFabWorks](https://tfabworks.com/)や、[Buy Me a Coffee](https://www.buymeacoffee.com/champierre)より支援してくださった協賛・支援を受けて開発・運営しています。
+
+<a href="https://tfabworks.com/"><img src="tfabworks-logo.png" /></a>
+
+Stretch3は2020年よりオープンソースかつ無料で提供しており、学校や各種プログラミング教室はじめさまざまな場所で利用されております。継続して開発を続けるためには、使っていただいている皆さまからの支援が必要です。<br />
+[一杯のコーヒー](https://www.buymeacoffee.com/champierre)という形でサポートをいただけると大変ありがたく思います。
+
+<a href="https://www.buymeacoffee.com/champierre"><img src="https://user-images.githubusercontent.com/10215/215533679-bb41b1a2-ba42-4eb6-9f9a-6d0bd67f3aaa.png"></a>
 
 ## 利用できる独自拡張機能
 
@@ -44,11 +44,11 @@ TM2Scratch と TMPose2Scratch はライブラリの相性の関係で、両方�
 - [Screenshot](https://github.com/tfabworks/xcx-screenshot) ステージのスクリーンショットを撮ることができる拡張機能です。
 - [Data Tool](https://github.com/tfabworks/xcx-webapi) 任意のWebAPIにアクセスし、返ってきたJSONデータをパースできる拡張機能です。
 
-## How to add a custom extension.
+## 注意事項
 
-TBD
+TM2Scratch と TMPose2Scratch はライブラリの相性の関係で、両方を同時に使うことはいまのところできません。
 
-## Release Notes
+## リリースノート
 
 - 2023/06/29 Scratchの色の変更を反映させるため、最新版のscratch-guiでビルドし直す。
 - 2020/10/22 脆弱性対策のために、最新版のscratch-guiでビルドし直す。Ref. https://scratch.mit.edu/discuss/topic/12246/?page=40#post-4525760
@@ -105,18 +105,10 @@ TBD
 
 ### AkaDako(Grove2Scratch)
 
+- 2025/01/06 v1.2.10 IRリモコンの追加, NeoPixelに虹色ブロック/色移動ブロックの追加, バグ修正
 - 2024/09/27 v1.2.2 通信ブロックの文言を修正
 - 2024/01/06 v1.2.0 距離センサーにノイズ除去処理を追加
 - 2023/06/06 v1.1.3 通信グループIDの入力値チェックを追加
-- 2023/04/27 v1.1.2 ブロックの文言修正
-- 2023/03/26 1.1.0にアップデート。
-- 2023/02/24 1.0.1にアップデート。
-- 2023/02/08 1.0.0にアップデート。
-- 2022/12/06 0.11.0にアップデート。
-- 2022/03/31 0.10.0にアップデート。
-- 2022/02/25 0.9.0にアップデート。
-- 2022/02/14 0.8.1を取り込み、拡張機能の説明がundefinedとなっているのを修正。
-- 2022/02/02 拡張機能の説明がundefinedとなっていたのを修正。
 - 2022/01/31 Initial release
 
 ### Handpose2Scratch
@@ -191,6 +183,7 @@ TBD
 
 ### ChatGPT2Scratch
 
+- 2025/01/28 v2.4 Enabling Azure API for CoderDojo Japan [here](https://github.com/ichiroc/chatgpt2scratch/releases/tag/v2.4)
 - 2024/07/23 v2.3 change the model to gpt-4o-mini [here](https://github.com/ichiroc/chatgpt2scratch/releases/tag/v2.3)
 - 2024/06/17 v2.2 add system prompt setting [here](https://github.com/ichiroc/chatgpt2scratch/releases/tag/v2.2)
 - 2023/11/01 v2.1.2 fix fetchWithToken bug [here](https://github.com/ichiroc/chatgpt2scratch/releases/tag/v2.1.2)
