@@ -81,6 +81,7 @@ TM2Scratch と TMPose2Scratch はライブラリの相性の関係で、両方�
 
 ### TM2Scratch
 
+- 2025/02/11 [音声認識用の機械学習モデルのURLを読み込めないバグを修正](https://github.com/champierre/tm2scratch/pull/46)
 - 2025/01/29 [Added german language](https://github.com/champierre/tm2scratch/pull/42)
 - 2025/01/28 [Allow for other teachable machine URLs](https://github.com/champierre/tm2scratch/pull/44)
 - 2024/06/18 Fix build error.
