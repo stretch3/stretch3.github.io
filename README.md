@@ -43,6 +43,7 @@ Stretch3は2020年よりオープンソースかつ無料で提供しており�
 - [CameraSelector](https://github.com/tfabworks/xcx-cameraselector) Scratchから使用するカメラデバイスを切り替えられるようにする拡張です。
 - [Screenshot](https://github.com/tfabworks/xcx-screenshot) ステージのスクリーンショットを撮ることができる拡張機能です。
 - [Data Tool](https://github.com/tfabworks/xcx-webapi) 任意のWebAPIにアクセスし、返ってきたJSONデータをパースできる拡張機能です。
+- [Arduino](https://github.com/yokobond/xcx-arduino) ScratchからArduinoを操作できる拡張機能です。
 
 ## 注意事項
 
@@ -205,3 +206,6 @@ TM2Scratch と TMPose2Scratch はライブラリの相性の関係で、両方�
 
 ### Data Tool
 - 2024/08/15 Initial release
+
+### Arduino
+- 2024/04/14 Initial release

@@ -108,6 +108,11 @@ jobs:
         with:
           repository: tfabworks/xcx-webapi
           path: ./xcx-webapi
+      - uses: actions/checkout@v4
+        with:
+          repository: yokobond/xcx-arduino
+          path: ./xcx-arduino
+      - run: sh ./xcx-arduino/scripts/stretch3-install.sh
       - run: sh ./xcx-webapi/scripts/stretch3-install.sh
       - run: sh ./xcx-screenshot/scripts/stretch3-install.sh
       - run: sh ./xcx-cameraselector/scripts/stretch3-install.sh
