@@ -44,6 +44,7 @@ Stretch3は2020年よりオープンソースかつ無料で提供しており�
 - [Screenshot](https://github.com/tfabworks/xcx-screenshot) ステージのスクリーンショットを撮ることができる拡張機能です。
 - [Data Tool](https://github.com/tfabworks/xcx-webapi) 任意のWebAPIにアクセスし、返ってきたJSONデータをパースできる拡張機能です。
 - [Arduino](https://github.com/yokobond/xcx-arduino) ScratchからArduinoを操作できる拡張機能です。
+- [GAI (Generative AI)](https://yokobond.github.io/xcx-gai/docs/ja/) Scratchから生成AIを利用できる拡張機能です。
 
 ## 注意事項
 

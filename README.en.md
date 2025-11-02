@@ -33,6 +33,7 @@ TM2Scratch and TMPose2Scratch are not compatible, so you cannot use them at the 
 - [Scratch2WebSerialAPI](https://github.com/champierre/scratch2webserialapi/) You can perform serial communication using the Web Serial API from Scratch.
 - [CameraSelector](https://github.com/tfabworks/xcx-cameraselector) This extension enables switching between camera devices for use with Scratch.
 - [Screenshot](https://github.com/tfabworks/xcx-screenshot) This extension allows you to take screenshots of the stage.
+- [GAI (Generative AI)](https://yokobond.github.io/xcx-gai/docs/) This extension allows you to use generative AI from Scratch.
 
 ## How to add a custom extension
 
