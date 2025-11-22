@@ -112,11 +112,17 @@ jobs:
         with:
           repository: yokobond/xcx-arduino
           path: ./xcx-arduino
+      - uses: actions/checkout@v4
+        with:
+          repository: yokobond/xcx-gai
+          ref: stretch3
+          path: ./xcx-gai
       - run: sh ./xcx-arduino/scripts/stretch3-install.sh
       - run: sh ./xcx-webapi/scripts/stretch3-install.sh
       - run: sh ./xcx-screenshot/scripts/stretch3-install.sh
       - run: sh ./xcx-cameraselector/scripts/stretch3-install.sh
       - run: sh ./scratch2webserialapi/install.sh
+      - run: sh ./xcx-gai/scripts/stretch3-install.sh
       - run: sh ./chatgpt2scratch/install.sh
         env:
           AZURE_API_KEY: ${{ secrets.AZURE_API_KEY }}
