@@ -145,6 +145,8 @@ jobs:
       - run: sh ./posenet2scratch/install.sh
       - run: sh ./ml2scratch/install.sh
       - run: sh ./stretch3/add_ga_tracking_code.sh
+      # @peculiar/webcrypto 1.6.0+ が webpack 4 で parse できないため 1.5.0 に固定
+      - run: sh ./stretch3/pin-peculiar-webcrypto.sh
       # TODO: ERR_OSSL_EVP_UNSUPPORTED エラーに対処するため、
       # NODE_OPTIONS を設定しているが、いずれは外したい。
       # Ref. https://zenn.dev/yogarasu/articles/425732ff408d06
