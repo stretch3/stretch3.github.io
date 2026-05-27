@@ -52,17 +52,26 @@ export default {
 
 Worker の URL（例: `https://scratch-translate-proxy.yourname.workers.dev`）が発行される。
 
+## 独自ドメインの設定
+
+1. [dash.cloudflare.com](https://dash.cloudflare.com) にログイン
+2. **Workers & Pages** → 対象の Worker を選択
+3. **Settings** タブ → **Domains & Routes** → **Add** → **Custom Domain**
+4. `translate.champierre.com` を入力 → **Add Custom Domain**
+
+Cloudflare が自動で DNS レコードを追加し、SSL 証明書も発行する。数分で有効になる。
+
 ## deploy.yml の更新
 
 `.github/workflows/deploy.yml` の sed コマンドで置換先を Worker の URL に変更する。
 
 ```yaml
-- run: grep -rl "translate-service.scratch.mit.edu" ./build | xargs --no-run-if-empty sed -i 's|translate-service\.scratch\.mit\.edu|scratch-translate-proxy.yourname.workers.dev|g'
+- run: grep -rl "translate-service.scratch.mit.edu" ./build | xargs --no-run-if-empty sed -i 's|translate-service\.scratch\.mit\.edu|translate.champierre.com|g'
 ```
 
 ## 動作確認
 
 ```
-curl "https://scratch-translate-proxy.yourname.workers.dev/translate?language=en&text=こんにちは"
+curl "https://translate.champierre.com/translate?language=en&text=こんにちは"
 # → {"result":"Hello"}
 ```

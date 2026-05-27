@@ -151,7 +151,7 @@ jobs:
       # NODE_OPTIONS を設定しているが、いずれは外したい。
       # Ref. https://zenn.dev/yogarasu/articles/425732ff408d06
       - run: NODE_OPTIONS=--openssl-legacy-provider npm run build
-      - run: grep -rl "translate-service.scratch.mit.edu" ./build | xargs --no-run-if-empty sed -i 's|translate-service\.scratch\.mit\.edu|scratch-translate-proxy.junya-119.workers.dev|g'
+      - run: grep -rl "translate-service.scratch.mit.edu" ./build | xargs --no-run-if-empty sed -i 's|translate-service\.scratch\.mit\.edu|translate.champierre.com|g'
       - run: sh ./stretch3/modify_index_html.sh
       - uses: peaceiris/actions-gh-pages@v3
         with:
