@@ -19,6 +19,10 @@ Stretch3は2020年よりオープンソースかつ無料で提供しており�
 
 <a href="https://www.buymeacoffee.com/champierre"><img src="https://user-images.githubusercontent.com/10215/215533679-bb41b1a2-ba42-4eb6-9f9a-6d0bd67f3aaa.png"></a>
 
+## ふりがな表示
+
+設定 → 言語 で「日本語（ふりがな付き）」を選ぶと、ブロックやメニューの漢字にふりがなが付きます。https://stretch3.github.io/?locale=ja-x-furigana を開くと、最初からふりがな付きで表示されます。[furi-scratch](https://github.com/champierre/furi-scratch) を移植したもので、ふりがなの表示には [Furifont](https://github.com/antfu/furifont)（SIL OFL 1.1）を使っています。
+
 ## 利用できる独自拡張機能
 
 - [ML2Scratch(エムエル トゥー スクラッチ)](https://github.com/champierre/ml2scratch) 機械学習を使った画像認識が簡単に体験、利用できます。
