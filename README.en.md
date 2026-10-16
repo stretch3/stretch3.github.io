@@ -10,6 +10,10 @@ Please refer to each home page listed below, for the License of each extension.
 
 TM2Scratch and TMPose2Scratch are not compatible, so you cannot use them at the same time.
 
+## Furigana
+
+Select "日本語（ふりがな付き）" (Japanese with furigana) in Settings → Language to show furigana on the kanji in blocks and menus. Open https://stretch3.github.io/?locale=ja-x-furigana to start with furigana. Ported from [furi-scratch](https://github.com/champierre/furi-scratch); the furigana are drawn by [Furifont](https://github.com/antfu/furifont) (SIL OFL 1.1).
+
 ## Available custom extensions
 
 - [ML2Scratch](https://github.com/champierre/ml2scratch) You can easily experience and use image recognition with machine learning.

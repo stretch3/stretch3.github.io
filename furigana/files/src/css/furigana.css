@@ -1,0 +1,8 @@
+/*
+ * Applied while the "日本語（ふりがな付き）" language option is selected (see lib/furigana.js).
+ * Furifont covers only Japanese characters, so other text keeps the usual fonts.
+ */
+:global(html.furigana) *,
+:global(html.furigana) :global(.blocklyText) {
+    font-family: "Furifont Sans VF", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}

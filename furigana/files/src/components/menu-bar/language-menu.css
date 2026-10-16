@@ -1,0 +1,9 @@
+/* Furifont (see lib/furigana.js) sets 日本語 with its furigana */
+.furigana-label {
+    font-family: "Furifont Sans VF", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Language names keep the usual font while furigana are shown (see css/furigana.css) */
+:global(html.furigana) .plain-label {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
