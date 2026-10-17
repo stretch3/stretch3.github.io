@@ -187,17 +187,22 @@ const stepsReading = value => {
 let stepsReadingsEnabled = false;
 
 /**
- * Pick the reading of 歩 in a "move steps" block by the number in it. 歩 reads ほ when the input is empty, holds
- * a reporter, or anything but a number.
+ * Pick the reading of 歩 in a "move steps" block by the number in it: the furigana of 歩 in 日本語（ふりがな付き）,
+ * and ほ or ぽ of ほうごかす in にほんご (ja-Hira). 歩 reads ほ when the input is empty, holds a reporter, or
+ * anything but a number.
  * @param {object} block The block.
+ * @param {boolean} hiragana Whether the block is in にほんご.
  */
-const updateStepsReading = block => {
+const updateStepsReading = (block, hiragana) => {
     const target = block.getInputTargetBlock('STEPS');
     const n = target && target.isShadow() ? stepsReading(target.getFieldValue('NUM')) : null;
-    const selector = reading(n === null ? 1 : n);
+    const reads = n === null ? 1 : n;
+    const replace = hiragana ?
+        text => text.replace(/[ほぽ](?=うごかす)/, reads === 2 ? 'ぽ' : 'ほ') :
+        text => text.replace(/歩[\u{E01E0}-\u{E01EF}]?/u, `歩${reading(reads)}`);
     block.inputList.forEach(input => input.fieldRow.forEach(field => {
         const text = field.getText();
-        const newText = text.replace(/歩[\u{E01E0}-\u{E01EF}]?/u, `歩${selector}`);
+        const newText = replace(text);
         if (newText !== text) {
             // Set the text without setText, which would render the block again
             field.text_ = newText;
@@ -218,7 +223,11 @@ const setStepsReadings = (ScratchBlocks, enabled) => {
     if (proto.renderWithoutStepsReading) return;
     proto.renderWithoutStepsReading = proto.render;
     proto.render = function (...args) {
-        if (stepsReadingsEnabled && this.type === 'motion_movesteps') updateStepsReading(this);
+        if (this.type === 'motion_movesteps') {
+            // にほんご can be picked without making the blocks again, so ask scratch-blocks for the locale each time
+            const hiragana = ScratchBlocks.ScratchMsgs.currentLocale_ === 'ja-Hira';
+            if (stepsReadingsEnabled || hiragana) updateStepsReading(this, hiragana);
+        }
         return this.renderWithoutStepsReading(...args);
     };
 };
