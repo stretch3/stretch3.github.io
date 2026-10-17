@@ -187,14 +187,14 @@ const stepsReading = value => {
 let stepsReadingsEnabled = false;
 
 /**
- * Pick the reading of 歩 in a "move steps" block by the number in it. 歩 stays bare when the input holds a
- * reporter, or anything but a number.
+ * Pick the reading of 歩 in a "move steps" block by the number in it. 歩 reads ほ when the input is empty, holds
+ * a reporter, or anything but a number.
  * @param {object} block The block.
  */
 const updateStepsReading = block => {
     const target = block.getInputTargetBlock('STEPS');
     const n = target && target.isShadow() ? stepsReading(target.getFieldValue('NUM')) : null;
-    const selector = n === null ? NO_READING : reading(n);
+    const selector = reading(n === null ? 1 : n);
     block.inputList.forEach(input => input.fieldRow.forEach(field => {
         const text = field.getText();
         const newText = text.replace(/歩[\u{E01E0}-\u{E01EF}]?/u, `歩${selector}`);
