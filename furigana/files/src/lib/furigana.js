@@ -28,7 +28,9 @@ const reading = n => String.fromCodePoint(0xE01E1 + n);
 /** Block texts of the Japanese (ja) locale to fix, by message id: [text, text with readings]. */
 const BLOCK_READINGS = {
     // 歩動 is no word, so 動 got どう: 歩[ほ]動[うご]かす
-    MOTION_MOVESTEPS: ['歩動かす', `歩${reading(1)}動${reading(1)}かす`]
+    MOTION_MOVESTEPS: ['歩動かす', `歩${reading(1)}動${reading(1)}かす`],
+    // 秒考 is no word, so 考 got こう: 秒考[かんが]える
+    LOOKS_THINKFORSECS: ['秒考える', `秒考${reading(1)}える`]
 };
 
 const originalBlockMessages = {};
