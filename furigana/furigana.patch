@@ -125,7 +125,7 @@ index 81402c3..9c1552a 100644
      menuOpen: languageMenuOpen(state),
      messagesByLocale: state.locales.messagesByLocale
 diff --git a/src/containers/blocks.jsx b/src/containers/blocks.jsx
-index 750be83..5ad9342 100644
+index 750be83..03dd583 100644
 --- a/src/containers/blocks.jsx
 +++ b/src/containers/blocks.jsx
 @@ -19,6 +19,7 @@ import DropAreaHOC from '../lib/drop-area-hoc.jsx';
@@ -140,7 +140,7 @@ index 750be83..5ad9342 100644
  
          this.ScratchBlocks.FieldColourSlider.activateEyedropper_ = this.props.onActivateColorPicker;
          this.ScratchBlocks.Procedures.externalProcedureDefCallback = this.props.onActivateCustomProcedures;
-+        setBlockReadings(this.ScratchBlocks, this.props.furigana);
++        setBlockReadings(this.ScratchBlocks, this.props.messages, this.props.furigana);
          this.ScratchBlocks.ScratchMsgs.setLocale(this.props.locale);
  
          const workspaceConfig = defaultsDeep({},
