@@ -1,0 +1,73 @@
+--- a/src/lib/libraries/extensions/microbitMore/index.jsx
++++ b/src/lib/libraries/extensions/microbitMore/index.jsx
+@@ -1,4 +1,5 @@
+-import formatMessage from 'format-message';
++import React from 'react';
++import {FormattedMessage} from 'react-intl';
+ 
+ /**
+  * MicroBit More extension
+@@ -13,25 +14,28 @@
+ const version = 'v2-0.3.2';
+ 
+ const entry = {
+-    get name () {
+-        return `${formatMessage({
+-            defaultMessage: 'MicroBit More',
+-            description: 'Name of this extension',
+-            id: 'mbitMore.entry.name'
+-        })} (${version})`;
+-    },
++    name: (
++        <React.Fragment>
++            <FormattedMessage
++                defaultMessage="MicroBit More"
++                description="Name of this extension"
++                id="mbitMore.entry.name"
++            />
++            {` (${version})`}
++        </React.Fragment>
++    ),
+     extensionId: 'microbitMore',
+     extensionURL: null,
+     collaborator: 'Yengawa Lab',
+     iconURL: microbitMoreIconURL,
+     insetIconURL: microbitMoreInsetIconURL,
+-    get description () {
+-        return formatMessage({
+-            defaultMessage: 'Play with all functions of micro:bit.',
+-            description: "Description for the 'Microbit More' extension",
+-            id: 'mbitMore.entry.description'
+-        });
+-    },
++    description: (
++        <FormattedMessage
++            defaultMessage="Play with all functions of micro:bit."
++            description="Description for the 'Microbit More' extension"
++            id="mbitMore.entry.description"
++        />
++    ),
+     featured: true,
+     disabled: false,
+     bluetoothRequired: true,
+@@ -40,13 +44,13 @@
+     useAutoScan: false,
+     connectionIconURL: microbitMoreConnectionIconURL,
+     connectionSmallIconURL: microbitMoreConnectionSmallIconURL,
+-    get connectingMessage () {
+-        return formatMessage({
+-            defaultMessage: 'Connecting',
+-            description: 'Message to help people connect to their micro:bit.',
+-            id: 'gui.extension.microbit.connectingMessage'
+-        });
+-    },
++    connectingMessage: (
++        <FormattedMessage
++            defaultMessage="Connecting"
++            description="Message to help people connect to their micro:bit."
++            id="gui.extension.microbit.connectingMessage"
++        />
++    ),
+     helpLink: 'https://microbit-more.github.io/',
+     translationMap: translations
+ };
