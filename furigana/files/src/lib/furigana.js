@@ -16,6 +16,43 @@ const FURIGANA_CLASS = 'furigana';
 const UNICODE_RANGE = 'U+2E80-2FDF,U+3000-30FF,U+3190-319F,U+31F0-31FF,U+3400-4DBF,U+4E00-9FFF,U+F900-FAFF,' +
     'U+FE00-FE0F,U+FF00-FFEF,U+20000-3FFFF,U+E0100-E01EF';
 
+/**
+ * Furifont reads each run of kanji without the text around it, so it misreads some block texts.
+ * A variation selector after a kanji picks its reading: VS226 + n is the kanji's reading n + 1, in the order of
+ * FurifontSansVF.ivs.json in the Furifont release (https://github.com/antfu/furifont/blob/main/docs/design.md#selectors).
+ * @param {number} n The index of the reading.
+ * @returns {string} the variation selector.
+ */
+const reading = n => String.fromCodePoint(0xE01E1 + n);
+
+/** Block texts of the Japanese (ja) locale to fix, by message id: [text, text with readings]. */
+const BLOCK_READINGS = {
+    // 歩動 is no word, so 動 got どう: 歩[ほ]動[うご]かす
+    MOTION_MOVESTEPS: ['歩動かす', `歩${reading(1)}動${reading(1)}かす`]
+};
+
+const originalBlockMessages = {};
+
+/**
+ * Pick the readings of BLOCK_READINGS in the block texts while furigana are shown, and restore them otherwise.
+ * Call it before ScratchBlocks.ScratchMsgs.setLocale.
+ * @param {object} ScratchBlocks The scratch-blocks instance.
+ * @param {boolean} enabled Whether furigana are shown.
+ */
+const setBlockReadings = (ScratchBlocks, enabled) => {
+    const messages = ScratchBlocks.ScratchMsgs.locales.ja;
+    if (!messages) return;
+    Object.keys(BLOCK_READINGS).forEach(id => {
+        if (!Object.prototype.hasOwnProperty.call(originalBlockMessages, id)) {
+            originalBlockMessages[id] = messages[id];
+        }
+        const original = originalBlockMessages[id];
+        if (typeof original !== 'string') return;
+        const [text, textWithReadings] = BLOCK_READINGS[id];
+        messages[id] = enabled ? original.replace(text, textWithReadings) : original;
+    });
+};
+
 let furifontPromise = null;
 
 /**
@@ -75,5 +112,6 @@ const useFurigana = enabled => {
 
 export {
     loadFurifont,
+    setBlockReadings,
     useFurigana
 };

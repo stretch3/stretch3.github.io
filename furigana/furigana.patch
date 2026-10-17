@@ -1,5 +1,5 @@
 diff --git a/src/components/gui/gui.jsx b/src/components/gui/gui.jsx
-index f48e5a6..07ea742 100644
+index f48e5a6..6ad6573 100644
 --- a/src/components/gui/gui.jsx
 +++ b/src/components/gui/gui.jsx
 @@ -34,6 +34,7 @@ import TelemetryModal from '../telemetry-modal/telemetry-modal.jsx';
@@ -23,16 +23,18 @@ index f48e5a6..07ea742 100644
      if (children) {
          return <Box {...componentProps}>{children}</Box>;
      }
-@@ -307,7 +310,7 @@ const GUIComponent = props => {
+@@ -307,8 +310,9 @@ const GUIComponent = props => {
                                  <TabPanel className={tabClassNames.tabPanel}>
                                      <Box className={styles.blocksWrapper}>
                                          <Blocks
 -                                            key={`${blocksId}/${theme}`}
 +                                            key={`${blocksId}/${theme}/${furigana}`}
                                              canUseCloud={canUseCloud}
++                                            furigana={furigana}
                                              grow={1}
                                              isVisible={blocksTabVisible}
-@@ -435,6 +438,7 @@ GUIComponent.propTypes = {
+                                             options={{
+@@ -435,6 +439,7 @@ GUIComponent.propTypes = {
      targetIsStage: PropTypes.bool,
      telemetryModalVisible: PropTypes.bool,
      theme: PropTypes.string,
@@ -122,6 +124,42 @@ index 81402c3..9c1552a 100644
      isRtl: state.locales.isRtl,
      menuOpen: languageMenuOpen(state),
      messagesByLocale: state.locales.messagesByLocale
+diff --git a/src/containers/blocks.jsx b/src/containers/blocks.jsx
+index 750be83..5ad9342 100644
+--- a/src/containers/blocks.jsx
++++ b/src/containers/blocks.jsx
+@@ -19,6 +19,7 @@ import DropAreaHOC from '../lib/drop-area-hoc.jsx';
+ import DragConstants from '../lib/drag-constants';
+ import defineDynamicBlock from '../lib/define-dynamic-block';
+ import {DEFAULT_THEME, getColorsForTheme, themeMap} from '../lib/themes';
++import {setBlockReadings} from '../lib/furigana';
+ import {injectExtensionBlockTheme, injectExtensionCategoryTheme} from '../lib/themes/blockHelpers';
+ 
+ import {connect} from 'react-redux';
+@@ -97,6 +98,7 @@ class Blocks extends React.Component {
+ 
+         this.ScratchBlocks.FieldColourSlider.activateEyedropper_ = this.props.onActivateColorPicker;
+         this.ScratchBlocks.Procedures.externalProcedureDefCallback = this.props.onActivateCustomProcedures;
++        setBlockReadings(this.ScratchBlocks, this.props.furigana);
+         this.ScratchBlocks.ScratchMsgs.setLocale(this.props.locale);
+ 
+         const workspaceConfig = defaultsDeep({},
+@@ -551,6 +553,7 @@ class Blocks extends React.Component {
+             canUseCloud,
+             customProceduresVisible,
+             extensionLibraryVisible,
++            furigana,
+             options,
+             stageSize,
+             vm,
+@@ -616,6 +619,7 @@ Blocks.propTypes = {
+     canUseCloud: PropTypes.bool,
+     customProceduresVisible: PropTypes.bool,
+     extensionLibraryVisible: PropTypes.bool,
++    furigana: PropTypes.bool,
+     isRtl: PropTypes.bool,
+     isVisible: PropTypes.bool,
+     locale: PropTypes.string.isRequired,
 diff --git a/src/containers/gui.jsx b/src/containers/gui.jsx
 index 2da5c15..974ccda 100644
 --- a/src/containers/gui.jsx
