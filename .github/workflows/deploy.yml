@@ -155,6 +155,7 @@ jobs:
       - run: NODE_OPTIONS=--openssl-legacy-provider npm run build
       - run: grep -rl "translate-service.scratch.mit.edu" ./build | xargs --no-run-if-empty sed -i 's|translate-service\.scratch\.mit\.edu|scratch-translate-proxy.junya-119.workers.dev|g'
       - run: sh ./stretch3/modify_index_html.sh
+      - run: cp ./stretch3/og-image.png ./build/og-image.png
       - uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
