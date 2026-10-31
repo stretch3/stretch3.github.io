@@ -25,12 +25,12 @@ Select "日本語（ふりがな付き）" (Japanese with furigana) in Settings 
 - [Scratch2Maqueen](https://github.com/champierre/scratch2maqueen) You can program Maqueen, a graphical programming robot, in real time from Scratch.
 - [Facemesh2Scratch](https://github.com/champierre/facemesh2scratch) You can track your face with just a webcam.
 - [Handpose2Scratch](https://github.com/champierre/handpose2scratch) You can track your hands and fingers with just a webcam.
-- [PaSoRich](https://github.com/con3office/pasorich) The IC card reader "PaSoRi" (Pasoli) can be used to read IC cards such as Suica.
+- [PaSoRich](https://github.com/con3code/pasorich) The IC card reader "PaSoRi" (Pasoli) can be used to read IC cards such as Suica.
 - [scratch3-qrcode](https://github.com/sugiura-lab/scratch3-qrcode) Read the QR code.
 - [Speech2Scratch](https://github.com/champierre/speech2scratch) converts speech to text using the browser's speech recognition feature.
 - [ImageClassifier2Scratch](https://github.com/champierre/ic2scratch) Recognizes an object captured by a webcam and determines what it is.
 - [iftttWebhooks][https://github.com/NorifumiOgawa/iftttWebhooks] Scratch works with other services via IFTTT.
-- [NumberBank](https://github.com/con3office/numberbank) Numbers can be stored in the cloud.
+- [NumberBank](https://github.com/con3code/numberbank) Numbers can be stored in the cloud.
 - [LEGO DUPLO Train](https://github.com/bricklife/scratch-lego-bluetooth-extensions) LEGO DUPLO locomotives can be controlled from Scratch.
 - [Geo Scratch](https://github.com/geolonia/x-geo-scratch) Geolonia Maps can be controlled from Scratch.
 - [ChatGPT2Scratch](https://github.com/ichiroc/chatgpt2scratch) ChatGPT can be used from Scratch.
